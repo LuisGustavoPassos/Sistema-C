@@ -1,0 +1,12 @@
+C:\Users\Gustavo-PC\source\repos\Sistema Financeiro\Sistema Financeiro\bin\Debug\Sistema Financeiro.exe.config
+C:\Users\Gustavo-PC\source\repos\Sistema Financeiro\Sistema Financeiro\bin\Debug\Sistema Financeiro.exe
+C:\Users\Gustavo-PC\source\repos\Sistema Financeiro\Sistema Financeiro\bin\Debug\Sistema Financeiro.pdb
+C:\Users\Gustavo-PC\source\repos\Sistema Financeiro\Sistema Financeiro\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\Gustavo-PC\source\repos\Sistema Financeiro\Sistema Financeiro\obj\Debug\Gestão Empresa.csproj.AssemblyReference.cache
+C:\Users\Gustavo-PC\source\repos\Sistema Financeiro\Sistema Financeiro\obj\Debug\Sistema_Financeiro.Form1.resources
+C:\Users\Gustavo-PC\source\repos\Sistema Financeiro\Sistema Financeiro\obj\Debug\Sistema_Financeiro.Properties.Resources.resources
+C:\Users\Gustavo-PC\source\repos\Sistema Financeiro\Sistema Financeiro\obj\Debug\Gestão Empresa.csproj.GenerateResource.cache
+C:\Users\Gustavo-PC\source\repos\Sistema Financeiro\Sistema Financeiro\obj\Debug\Gestão Empresa.csproj.CoreCompileInputs.cache
+C:\Users\Gustavo-PC\source\repos\Sistema Financeiro\Sistema Financeiro\obj\Debug\Gest_o E.E70B196F.Up2Date
+C:\Users\Gustavo-PC\source\repos\Sistema Financeiro\Sistema Financeiro\obj\Debug\Sistema Financeiro.exe
+C:\Users\Gustavo-PC\source\repos\Sistema Financeiro\Sistema Financeiro\obj\Debug\Sistema Financeiro.pdb
