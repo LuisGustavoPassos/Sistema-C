@@ -10,3 +10,15 @@ C:\Users\Gustavo-PC\source\repos\Sistema Financeiro\Sistema Financeiro\obj\Debug
 C:\Users\Gustavo-PC\source\repos\Sistema Financeiro\Sistema Financeiro\obj\Debug\Gest_o E.E70B196F.Up2Date
 C:\Users\Gustavo-PC\source\repos\Sistema Financeiro\Sistema Financeiro\obj\Debug\Sistema Financeiro.exe
 C:\Users\Gustavo-PC\source\repos\Sistema Financeiro\Sistema Financeiro\obj\Debug\Sistema Financeiro.pdb
+C:\Users\luisg\source\repos\Sistema-C-Branch-de-Edi-o\Sistema Financeiro\bin\Debug\Sistema Financeiro.exe.config
+C:\Users\luisg\source\repos\Sistema-C-Branch-de-Edi-o\Sistema Financeiro\bin\Debug\Sistema Financeiro.exe
+C:\Users\luisg\source\repos\Sistema-C-Branch-de-Edi-o\Sistema Financeiro\bin\Debug\Sistema Financeiro.pdb
+C:\Users\luisg\source\repos\Sistema-C-Branch-de-Edi-o\Sistema Financeiro\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\luisg\source\repos\Sistema-C-Branch-de-Edi-o\Sistema Financeiro\obj\Debug\Gestão Empresa.csproj.AssemblyReference.cache
+C:\Users\luisg\source\repos\Sistema-C-Branch-de-Edi-o\Sistema Financeiro\obj\Debug\Sistema_Financeiro.Properties.Resources.resources
+C:\Users\luisg\source\repos\Sistema-C-Branch-de-Edi-o\Sistema Financeiro\obj\Debug\Gestão Empresa.csproj.GenerateResource.cache
+C:\Users\luisg\source\repos\Sistema-C-Branch-de-Edi-o\Sistema Financeiro\obj\Debug\Gestão Empresa.csproj.CoreCompileInputs.cache
+C:\Users\luisg\source\repos\Sistema-C-Branch-de-Edi-o\Sistema Financeiro\obj\Debug\Gest_o E.E70B196F.Up2Date
+C:\Users\luisg\source\repos\Sistema-C-Branch-de-Edi-o\Sistema Financeiro\obj\Debug\Sistema Financeiro.exe
+C:\Users\luisg\source\repos\Sistema-C-Branch-de-Edi-o\Sistema Financeiro\obj\Debug\Sistema Financeiro.pdb
+C:\Users\luisg\source\repos\Sistema-C-Branch-de-Edi-o\Sistema Financeiro\obj\Debug\Sistema_Financeiro.SistemaFinanceiro.resources

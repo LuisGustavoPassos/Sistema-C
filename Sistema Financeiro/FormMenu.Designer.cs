@@ -1,6 +1,6 @@
 ﻿namespace Sistema_Financeiro
 {
-    partial class Form1
+    partial class SistemaFinanceiro
     {
         /// <summary>
         /// Variável de designer necessária.
@@ -29,196 +29,219 @@
         private void InitializeComponent()
         {
             this.panelMenu = new System.Windows.Forms.Panel();
+            this.BtnConfiguracoes = new FontAwesome.Sharp.IconButton();
+            this.BtnLogOut = new FontAwesome.Sharp.IconButton();
+            this.BtnFinanceiro = new FontAwesome.Sharp.IconButton();
+            this.BtnEstoque = new FontAwesome.Sharp.IconButton();
+            this.BtnProdutos = new FontAwesome.Sharp.IconButton();
+            this.BtnCadastros = new FontAwesome.Sharp.IconButton();
+            this.BtnDashboard = new FontAwesome.Sharp.IconButton();
             this.panelLogo = new System.Windows.Forms.Panel();
-            this.iconButton1 = new FontAwesome.Sharp.IconButton();
-            this.iconButton2 = new FontAwesome.Sharp.IconButton();
-            this.iconButton3 = new FontAwesome.Sharp.IconButton();
-            this.iconButton4 = new FontAwesome.Sharp.IconButton();
-            this.iconButton5 = new FontAwesome.Sharp.IconButton();
-            this.iconButton6 = new FontAwesome.Sharp.IconButton();
-            this.iconButton7 = new FontAwesome.Sharp.IconButton();
             this.panelMenu.SuspendLayout();
             this.SuspendLayout();
             // 
             // panelMenu
             // 
-            this.panelMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(30)))), ((int)(((byte)(68)))));
-            this.panelMenu.Controls.Add(this.iconButton7);
-            this.panelMenu.Controls.Add(this.iconButton6);
-            this.panelMenu.Controls.Add(this.iconButton5);
-            this.panelMenu.Controls.Add(this.iconButton4);
-            this.panelMenu.Controls.Add(this.iconButton3);
-            this.panelMenu.Controls.Add(this.iconButton2);
-            this.panelMenu.Controls.Add(this.iconButton1);
+            this.panelMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
+            this.panelMenu.Controls.Add(this.BtnConfiguracoes);
+            this.panelMenu.Controls.Add(this.BtnLogOut);
+            this.panelMenu.Controls.Add(this.BtnFinanceiro);
+            this.panelMenu.Controls.Add(this.BtnEstoque);
+            this.panelMenu.Controls.Add(this.BtnProdutos);
+            this.panelMenu.Controls.Add(this.BtnCadastros);
+            this.panelMenu.Controls.Add(this.BtnDashboard);
             this.panelMenu.Controls.Add(this.panelLogo);
             this.panelMenu.Dock = System.Windows.Forms.DockStyle.Left;
             this.panelMenu.Location = new System.Drawing.Point(0, 0);
+            this.panelMenu.Margin = new System.Windows.Forms.Padding(4);
             this.panelMenu.Name = "panelMenu";
-            this.panelMenu.Size = new System.Drawing.Size(220, 631);
+            this.panelMenu.Size = new System.Drawing.Size(293, 777);
             this.panelMenu.TabIndex = 0;
             this.panelMenu.Paint += new System.Windows.Forms.PaintEventHandler(this.panelMenu_Paint);
             // 
+            // BtnConfiguracoes
+            // 
+            this.BtnConfiguracoes.Dock = System.Windows.Forms.DockStyle.Top;
+            this.BtnConfiguracoes.FlatAppearance.BorderSize = 0;
+            this.BtnConfiguracoes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnConfiguracoes.ForeColor = System.Drawing.Color.Gainsboro;
+            this.BtnConfiguracoes.IconChar = FontAwesome.Sharp.IconChar.Gears;
+            this.BtnConfiguracoes.IconColor = System.Drawing.Color.Gainsboro;
+            this.BtnConfiguracoes.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.BtnConfiguracoes.IconSize = 32;
+            this.BtnConfiguracoes.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BtnConfiguracoes.Location = new System.Drawing.Point(0, 542);
+            this.BtnConfiguracoes.Margin = new System.Windows.Forms.Padding(4);
+            this.BtnConfiguracoes.Name = "BtnConfiguracoes";
+            this.BtnConfiguracoes.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
+            this.BtnConfiguracoes.Size = new System.Drawing.Size(293, 74);
+            this.BtnConfiguracoes.TabIndex = 7;
+            this.BtnConfiguracoes.Text = "Configurações";
+            this.BtnConfiguracoes.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BtnConfiguracoes.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.BtnConfiguracoes.UseVisualStyleBackColor = true;
+            this.BtnConfiguracoes.Click += new System.EventHandler(this.iconButton7_Click);
+            // 
+            // BtnLogOut
+            // 
+            this.BtnLogOut.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.BtnLogOut.FlatAppearance.BorderSize = 0;
+            this.BtnLogOut.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnLogOut.ForeColor = System.Drawing.Color.Gainsboro;
+            this.BtnLogOut.IconChar = FontAwesome.Sharp.IconChar.RightFromBracket;
+            this.BtnLogOut.IconColor = System.Drawing.Color.Gainsboro;
+            this.BtnLogOut.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.BtnLogOut.IconSize = 32;
+            this.BtnLogOut.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BtnLogOut.Location = new System.Drawing.Point(0, 703);
+            this.BtnLogOut.Margin = new System.Windows.Forms.Padding(4);
+            this.BtnLogOut.Name = "BtnLogOut";
+            this.BtnLogOut.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
+            this.BtnLogOut.Size = new System.Drawing.Size(293, 74);
+            this.BtnLogOut.TabIndex = 6;
+            this.BtnLogOut.Text = "Log Out";
+            this.BtnLogOut.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BtnLogOut.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.BtnLogOut.UseVisualStyleBackColor = true;
+            this.BtnLogOut.Click += new System.EventHandler(this.iconButton6_Click);
+            // 
+            // BtnFinanceiro
+            // 
+            this.BtnFinanceiro.Dock = System.Windows.Forms.DockStyle.Top;
+            this.BtnFinanceiro.FlatAppearance.BorderSize = 0;
+            this.BtnFinanceiro.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnFinanceiro.ForeColor = System.Drawing.Color.Gainsboro;
+            this.BtnFinanceiro.IconChar = FontAwesome.Sharp.IconChar.DollarSign;
+            this.BtnFinanceiro.IconColor = System.Drawing.Color.Gainsboro;
+            this.BtnFinanceiro.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.BtnFinanceiro.IconSize = 32;
+            this.BtnFinanceiro.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BtnFinanceiro.Location = new System.Drawing.Point(0, 468);
+            this.BtnFinanceiro.Margin = new System.Windows.Forms.Padding(4);
+            this.BtnFinanceiro.Name = "BtnFinanceiro";
+            this.BtnFinanceiro.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
+            this.BtnFinanceiro.Size = new System.Drawing.Size(293, 74);
+            this.BtnFinanceiro.TabIndex = 5;
+            this.BtnFinanceiro.Text = "Financeiro";
+            this.BtnFinanceiro.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BtnFinanceiro.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.BtnFinanceiro.UseVisualStyleBackColor = true;
+            this.BtnFinanceiro.Click += new System.EventHandler(this.BtnFinanceiro_Click);
+            // 
+            // BtnEstoque
+            // 
+            this.BtnEstoque.Dock = System.Windows.Forms.DockStyle.Top;
+            this.BtnEstoque.FlatAppearance.BorderSize = 0;
+            this.BtnEstoque.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnEstoque.ForeColor = System.Drawing.Color.Gainsboro;
+            this.BtnEstoque.IconChar = FontAwesome.Sharp.IconChar.BoxesStacked;
+            this.BtnEstoque.IconColor = System.Drawing.Color.Gainsboro;
+            this.BtnEstoque.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.BtnEstoque.IconSize = 32;
+            this.BtnEstoque.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BtnEstoque.Location = new System.Drawing.Point(0, 394);
+            this.BtnEstoque.Margin = new System.Windows.Forms.Padding(4);
+            this.BtnEstoque.Name = "BtnEstoque";
+            this.BtnEstoque.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
+            this.BtnEstoque.Size = new System.Drawing.Size(293, 74);
+            this.BtnEstoque.TabIndex = 4;
+            this.BtnEstoque.Text = "Estoque";
+            this.BtnEstoque.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BtnEstoque.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.BtnEstoque.UseVisualStyleBackColor = true;
+            this.BtnEstoque.Click += new System.EventHandler(this.iconButton4_Click);
+            // 
+            // BtnProdutos
+            // 
+            this.BtnProdutos.Dock = System.Windows.Forms.DockStyle.Top;
+            this.BtnProdutos.FlatAppearance.BorderSize = 0;
+            this.BtnProdutos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnProdutos.ForeColor = System.Drawing.Color.Gainsboro;
+            this.BtnProdutos.IconChar = FontAwesome.Sharp.IconChar.Tags;
+            this.BtnProdutos.IconColor = System.Drawing.Color.Gainsboro;
+            this.BtnProdutos.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.BtnProdutos.IconSize = 32;
+            this.BtnProdutos.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BtnProdutos.Location = new System.Drawing.Point(0, 320);
+            this.BtnProdutos.Margin = new System.Windows.Forms.Padding(4);
+            this.BtnProdutos.Name = "BtnProdutos";
+            this.BtnProdutos.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
+            this.BtnProdutos.Size = new System.Drawing.Size(293, 74);
+            this.BtnProdutos.TabIndex = 3;
+            this.BtnProdutos.Text = "Produtos";
+            this.BtnProdutos.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BtnProdutos.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.BtnProdutos.UseVisualStyleBackColor = true;
+            this.BtnProdutos.Click += new System.EventHandler(this.BtnProdutos_Click);
+            // 
+            // BtnCadastros
+            // 
+            this.BtnCadastros.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.BtnCadastros.Dock = System.Windows.Forms.DockStyle.Top;
+            this.BtnCadastros.FlatAppearance.BorderSize = 0;
+            this.BtnCadastros.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnCadastros.ForeColor = System.Drawing.Color.Gainsboro;
+            this.BtnCadastros.IconChar = FontAwesome.Sharp.IconChar.Users;
+            this.BtnCadastros.IconColor = System.Drawing.Color.Gainsboro;
+            this.BtnCadastros.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.BtnCadastros.IconSize = 32;
+            this.BtnCadastros.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BtnCadastros.Location = new System.Drawing.Point(0, 246);
+            this.BtnCadastros.Margin = new System.Windows.Forms.Padding(4);
+            this.BtnCadastros.Name = "BtnCadastros";
+            this.BtnCadastros.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
+            this.BtnCadastros.Size = new System.Drawing.Size(293, 74);
+            this.BtnCadastros.TabIndex = 2;
+            this.BtnCadastros.Text = "Cadastros";
+            this.BtnCadastros.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BtnCadastros.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.BtnCadastros.UseVisualStyleBackColor = true;
+            this.BtnCadastros.Click += new System.EventHandler(this.iconButton2_Click);
+            // 
+            // BtnDashboard
+            // 
+            this.BtnDashboard.Dock = System.Windows.Forms.DockStyle.Top;
+            this.BtnDashboard.FlatAppearance.BorderSize = 0;
+            this.BtnDashboard.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnDashboard.ForeColor = System.Drawing.Color.Gainsboro;
+            this.BtnDashboard.IconChar = FontAwesome.Sharp.IconChar.ChartLine;
+            this.BtnDashboard.IconColor = System.Drawing.Color.Gainsboro;
+            this.BtnDashboard.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.BtnDashboard.IconSize = 32;
+            this.BtnDashboard.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BtnDashboard.Location = new System.Drawing.Point(0, 172);
+            this.BtnDashboard.Margin = new System.Windows.Forms.Padding(4);
+            this.BtnDashboard.Name = "BtnDashboard";
+            this.BtnDashboard.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
+            this.BtnDashboard.Size = new System.Drawing.Size(293, 74);
+            this.BtnDashboard.TabIndex = 1;
+            this.BtnDashboard.Text = "Dashboard";
+            this.BtnDashboard.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BtnDashboard.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.BtnDashboard.UseVisualStyleBackColor = true;
+            this.BtnDashboard.Click += new System.EventHandler(this.iconButton1_Click);
+            // 
             // panelLogo
             // 
+            this.panelLogo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
             this.panelLogo.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelLogo.Location = new System.Drawing.Point(0, 0);
+            this.panelLogo.Margin = new System.Windows.Forms.Padding(4);
             this.panelLogo.Name = "panelLogo";
-            this.panelLogo.Size = new System.Drawing.Size(220, 140);
+            this.panelLogo.Size = new System.Drawing.Size(293, 172);
             this.panelLogo.TabIndex = 0;
+            this.panelLogo.Paint += new System.Windows.Forms.PaintEventHandler(this.panelLogo_Paint);
             // 
-            // iconButton1
+            // SistemaFinanceiro
             // 
-            this.iconButton1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.iconButton1.FlatAppearance.BorderSize = 0;
-            this.iconButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButton1.ForeColor = System.Drawing.Color.Gainsboro;
-            this.iconButton1.IconChar = FontAwesome.Sharp.IconChar.ChartLine;
-            this.iconButton1.IconColor = System.Drawing.Color.Gainsboro;
-            this.iconButton1.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconButton1.IconSize = 32;
-            this.iconButton1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton1.Location = new System.Drawing.Point(0, 140);
-            this.iconButton1.Name = "iconButton1";
-            this.iconButton1.Size = new System.Drawing.Size(220, 60);
-            this.iconButton1.TabIndex = 1;
-            this.iconButton1.Text = "Dashboard";
-            this.iconButton1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.iconButton1.UseVisualStyleBackColor = true;
-            this.iconButton1.Click += new System.EventHandler(this.iconButton1_Click);
-            // 
-            // iconButton2
-            // 
-            this.iconButton2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.iconButton2.FlatAppearance.BorderSize = 0;
-            this.iconButton2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButton2.ForeColor = System.Drawing.Color.Gainsboro;
-            this.iconButton2.IconChar = FontAwesome.Sharp.IconChar.Users;
-            this.iconButton2.IconColor = System.Drawing.Color.Gainsboro;
-            this.iconButton2.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconButton2.IconSize = 32;
-            this.iconButton2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton2.Location = new System.Drawing.Point(0, 200);
-            this.iconButton2.Name = "iconButton2";
-            this.iconButton2.Size = new System.Drawing.Size(220, 60);
-            this.iconButton2.TabIndex = 2;
-            this.iconButton2.Text = "Cadastros";
-            this.iconButton2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.iconButton2.UseVisualStyleBackColor = true;
-            this.iconButton2.Click += new System.EventHandler(this.iconButton2_Click);
-            // 
-            // iconButton3
-            // 
-            this.iconButton3.Dock = System.Windows.Forms.DockStyle.Top;
-            this.iconButton3.FlatAppearance.BorderSize = 0;
-            this.iconButton3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButton3.ForeColor = System.Drawing.Color.Gainsboro;
-            this.iconButton3.IconChar = FontAwesome.Sharp.IconChar.Tags;
-            this.iconButton3.IconColor = System.Drawing.Color.Gainsboro;
-            this.iconButton3.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconButton3.IconSize = 32;
-            this.iconButton3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton3.Location = new System.Drawing.Point(0, 260);
-            this.iconButton3.Name = "iconButton3";
-            this.iconButton3.Size = new System.Drawing.Size(220, 60);
-            this.iconButton3.TabIndex = 3;
-            this.iconButton3.Text = "Produtos";
-            this.iconButton3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton3.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.iconButton3.UseVisualStyleBackColor = true;
-            // 
-            // iconButton4
-            // 
-            this.iconButton4.Dock = System.Windows.Forms.DockStyle.Top;
-            this.iconButton4.FlatAppearance.BorderSize = 0;
-            this.iconButton4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButton4.ForeColor = System.Drawing.Color.Gainsboro;
-            this.iconButton4.IconChar = FontAwesome.Sharp.IconChar.BoxesStacked;
-            this.iconButton4.IconColor = System.Drawing.Color.Gainsboro;
-            this.iconButton4.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconButton4.IconSize = 32;
-            this.iconButton4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton4.Location = new System.Drawing.Point(0, 320);
-            this.iconButton4.Name = "iconButton4";
-            this.iconButton4.Size = new System.Drawing.Size(220, 60);
-            this.iconButton4.TabIndex = 4;
-            this.iconButton4.Text = "Estoque";
-            this.iconButton4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton4.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.iconButton4.UseVisualStyleBackColor = true;
-            this.iconButton4.Click += new System.EventHandler(this.iconButton4_Click);
-            // 
-            // iconButton5
-            // 
-            this.iconButton5.Dock = System.Windows.Forms.DockStyle.Top;
-            this.iconButton5.FlatAppearance.BorderSize = 0;
-            this.iconButton5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButton5.ForeColor = System.Drawing.Color.Gainsboro;
-            this.iconButton5.IconChar = FontAwesome.Sharp.IconChar.DollarSign;
-            this.iconButton5.IconColor = System.Drawing.Color.Gainsboro;
-            this.iconButton5.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconButton5.IconSize = 32;
-            this.iconButton5.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton5.Location = new System.Drawing.Point(0, 380);
-            this.iconButton5.Name = "iconButton5";
-            this.iconButton5.Size = new System.Drawing.Size(220, 60);
-            this.iconButton5.TabIndex = 5;
-            this.iconButton5.Text = "Financeiro";
-            this.iconButton5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton5.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.iconButton5.UseVisualStyleBackColor = true;
-            // 
-            // iconButton6
-            // 
-            this.iconButton6.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.iconButton6.FlatAppearance.BorderSize = 0;
-            this.iconButton6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButton6.ForeColor = System.Drawing.Color.Gainsboro;
-            this.iconButton6.IconChar = FontAwesome.Sharp.IconChar.RightFromBracket;
-            this.iconButton6.IconColor = System.Drawing.Color.Gainsboro;
-            this.iconButton6.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconButton6.IconSize = 32;
-            this.iconButton6.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton6.Location = new System.Drawing.Point(0, 571);
-            this.iconButton6.Name = "iconButton6";
-            this.iconButton6.Size = new System.Drawing.Size(220, 60);
-            this.iconButton6.TabIndex = 6;
-            this.iconButton6.Text = "Log Out";
-            this.iconButton6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton6.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.iconButton6.UseVisualStyleBackColor = true;
-            this.iconButton6.Click += new System.EventHandler(this.iconButton6_Click);
-            // 
-            // iconButton7
-            // 
-            this.iconButton7.Dock = System.Windows.Forms.DockStyle.Top;
-            this.iconButton7.FlatAppearance.BorderSize = 0;
-            this.iconButton7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButton7.ForeColor = System.Drawing.Color.Gainsboro;
-            this.iconButton7.IconChar = FontAwesome.Sharp.IconChar.Gears;
-            this.iconButton7.IconColor = System.Drawing.Color.Gainsboro;
-            this.iconButton7.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconButton7.IconSize = 32;
-            this.iconButton7.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton7.Location = new System.Drawing.Point(0, 440);
-            this.iconButton7.Name = "iconButton7";
-            this.iconButton7.Size = new System.Drawing.Size(220, 60);
-            this.iconButton7.TabIndex = 7;
-            this.iconButton7.Text = "Configurações";
-            this.iconButton7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton7.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.iconButton7.UseVisualStyleBackColor = true;
-            this.iconButton7.Click += new System.EventHandler(this.iconButton7_Click);
-            // 
-            // Form1
-            // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1381, 631);
+            this.ClientSize = new System.Drawing.Size(1841, 777);
             this.Controls.Add(this.panelMenu);
-            this.Name = "Form1";
+            this.Margin = new System.Windows.Forms.Padding(4);
+            this.Name = "SistemaFinanceiro";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.panelMenu.ResumeLayout(false);
             this.ResumeLayout(false);
 
@@ -227,14 +250,14 @@
         #endregion
 
         private System.Windows.Forms.Panel panelMenu;
-        private FontAwesome.Sharp.IconButton iconButton1;
+        private FontAwesome.Sharp.IconButton BtnDashboard;
         private System.Windows.Forms.Panel panelLogo;
-        private FontAwesome.Sharp.IconButton iconButton6;
-        private FontAwesome.Sharp.IconButton iconButton5;
-        private FontAwesome.Sharp.IconButton iconButton4;
-        private FontAwesome.Sharp.IconButton iconButton3;
-        private FontAwesome.Sharp.IconButton iconButton2;
-        private FontAwesome.Sharp.IconButton iconButton7;
+        private FontAwesome.Sharp.IconButton BtnLogOut;
+        private FontAwesome.Sharp.IconButton BtnFinanceiro;
+        private FontAwesome.Sharp.IconButton BtnEstoque;
+        private FontAwesome.Sharp.IconButton BtnProdutos;
+        private FontAwesome.Sharp.IconButton BtnCadastros;
+        private FontAwesome.Sharp.IconButton BtnConfiguracoes;
     }
 }
 
