@@ -40,6 +40,7 @@
     <Reference Include="PresentationFramework" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
     <Reference Include="System.Xaml" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -53,15 +54,52 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FormMenu.cs">
+    <Compile Include="Conn.cs" />
+    <Compile Include="Forms\ConfiguracoesForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormMenu.Designer.cs">
+    <Compile Include="Forms\ConfiguracoesForm.Designer.cs">
+      <DependentUpon>ConfiguracoesForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\DashboardForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\DashboardForm.Designer.cs">
+      <DependentUpon>DashboardForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\CadastrosForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\CadastrosForm.Designer.cs">
+      <DependentUpon>CadastrosForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FinanceiroForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FinanceiroForm.Designer.cs">
+      <DependentUpon>FinanceiroForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormMenu.Designer.cs">
       <DependentUpon>FormMenu.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="FormMenu.resx">
+    <EmbeddedResource Include="Forms\CadastrosForm.resx">
+      <DependentUpon>CadastrosForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ConfiguracoesForm.resx">
+      <DependentUpon>ConfiguracoesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\DashboardForm.resx">
+      <DependentUpon>DashboardForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FinanceiroForm.resx">
+      <DependentUpon>FinanceiroForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormMenu.resx">
       <DependentUpon>FormMenu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
