@@ -22,3 +22,51 @@ C:\Users\luisg\source\repos\Sistema-C-Branch-de-Edi-o\Sistema Financeiro\obj\Deb
 C:\Users\luisg\source\repos\Sistema-C-Branch-de-Edi-o\Sistema Financeiro\obj\Debug\Sistema Financeiro.exe
 C:\Users\luisg\source\repos\Sistema-C-Branch-de-Edi-o\Sistema Financeiro\obj\Debug\Sistema Financeiro.pdb
 C:\Users\luisg\source\repos\Sistema-C-Branch-de-Edi-o\Sistema Financeiro\obj\Debug\Sistema_Financeiro.SistemaFinanceiro.resources
+C:\Users\Gustavo-PC\Downloads\Sistema-C-master\Sistema Financeiro\bin\Debug\Sistema Financeiro.exe.config
+C:\Users\Gustavo-PC\Downloads\Sistema-C-master\Sistema Financeiro\bin\Debug\Sistema Financeiro.exe
+C:\Users\Gustavo-PC\Downloads\Sistema-C-master\Sistema Financeiro\bin\Debug\Sistema Financeiro.pdb
+C:\Users\Gustavo-PC\Downloads\Sistema-C-master\Sistema Financeiro\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\Gustavo-PC\Downloads\Sistema-C-master\Sistema Financeiro\obj\Debug\Gestão Empresa.csproj.AssemblyReference.cache
+C:\Users\Gustavo-PC\Downloads\Sistema-C-master\Sistema Financeiro\obj\Debug\Sistema_Financeiro.SistemaFinanceiro.resources
+C:\Users\Gustavo-PC\Downloads\Sistema-C-master\Sistema Financeiro\obj\Debug\Sistema_Financeiro.Properties.Resources.resources
+C:\Users\Gustavo-PC\Downloads\Sistema-C-master\Sistema Financeiro\obj\Debug\Gestão Empresa.csproj.GenerateResource.cache
+C:\Users\Gustavo-PC\Downloads\Sistema-C-master\Sistema Financeiro\obj\Debug\Gestão Empresa.csproj.CoreCompileInputs.cache
+C:\Users\Gustavo-PC\Downloads\Sistema-C-master\Sistema Financeiro\obj\Debug\Gest_o E.E70B196F.Up2Date
+C:\Users\Gustavo-PC\Downloads\Sistema-C-master\Sistema Financeiro\obj\Debug\Sistema Financeiro.exe
+C:\Users\Gustavo-PC\Downloads\Sistema-C-master\Sistema Financeiro\obj\Debug\Sistema Financeiro.pdb
+C:\Users\Gustavo-PC\Downloads\Sistema-C-master\Sistema Financeiro\obj\Debug\Sistema_Financeiro.DashboardForm.resources
+C:\Users\Gustavo-PC\Downloads\Sistema-C-master\Sistema Financeiro\obj\Debug\Sistema_Financeiro.CadastrosForm.resources
+C:\Users\Gustavo-PC\Downloads\Sistema-C-master\Sistema Financeiro\obj\Debug\Sistema_Financeiro.ConfiguracoesForm.resources
+C:\Users\Gustavo-PC\Downloads\Sistema-C-master\Sistema Financeiro\obj\Debug\Sistema_Financeiro.FinanceiroForm.resources
+C:\Users\weder\source\repos\Sistema-C-Branch-Financeiro\Sistema Financeiro\bin\Debug\Sistema Financeiro.exe.config
+C:\Users\weder\source\repos\Sistema-C-Branch-Financeiro\Sistema Financeiro\bin\Debug\Sistema Financeiro.exe
+C:\Users\weder\source\repos\Sistema-C-Branch-Financeiro\Sistema Financeiro\bin\Debug\Sistema Financeiro.pdb
+C:\Users\weder\source\repos\Sistema-C-Branch-Financeiro\Sistema Financeiro\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\weder\source\repos\Sistema-C-Branch-Financeiro\Sistema Financeiro\obj\Debug\Gestão Empresa.csproj.AssemblyReference.cache
+C:\Users\weder\source\repos\Sistema-C-Branch-Financeiro\Sistema Financeiro\obj\Debug\Sistema_Financeiro.CadastrosForm.resources
+C:\Users\weder\source\repos\Sistema-C-Branch-Financeiro\Sistema Financeiro\obj\Debug\Sistema_Financeiro.ConfiguracoesForm.resources
+C:\Users\weder\source\repos\Sistema-C-Branch-Financeiro\Sistema Financeiro\obj\Debug\Sistema_Financeiro.DashboardForm.resources
+C:\Users\weder\source\repos\Sistema-C-Branch-Financeiro\Sistema Financeiro\obj\Debug\Sistema_Financeiro.FinanceiroForm.resources
+C:\Users\weder\source\repos\Sistema-C-Branch-Financeiro\Sistema Financeiro\obj\Debug\Sistema_Financeiro.SistemaFinanceiro.resources
+C:\Users\weder\source\repos\Sistema-C-Branch-Financeiro\Sistema Financeiro\obj\Debug\Sistema_Financeiro.Properties.Resources.resources
+C:\Users\weder\source\repos\Sistema-C-Branch-Financeiro\Sistema Financeiro\obj\Debug\Gestão Empresa.csproj.GenerateResource.cache
+C:\Users\weder\source\repos\Sistema-C-Branch-Financeiro\Sistema Financeiro\obj\Debug\Gestão Empresa.csproj.CoreCompileInputs.cache
+C:\Users\weder\source\repos\Sistema-C-Branch-Financeiro\Sistema Financeiro\obj\Debug\Gest_o E.E70B196F.Up2Date
+C:\Users\weder\source\repos\Sistema-C-Branch-Financeiro\Sistema Financeiro\obj\Debug\Sistema Financeiro.exe
+C:\Users\weder\source\repos\Sistema-C-Branch-Financeiro\Sistema Financeiro\obj\Debug\Sistema Financeiro.pdb
+C:\Users\kauea\Downloads\Sistema-C-Modulo-Cadastro-Prototipo\Sistema Financeiro\obj\Debug\Gestão Empresa.csproj.AssemblyReference.cache
+C:\Users\kauea\Downloads\Sistema-C-Modulo-Cadastro-Prototipo\Sistema Financeiro\obj\Debug\Sistema Financeiro.exe
+C:\Users\kauea\Downloads\Sistema-C-Modulo-Cadastro-Prototipo\Sistema Financeiro\obj\Debug\Sistema Financeiro.pdb
+C:\Users\kauea\Downloads\Sistema-C-Modulo-Cadastro-Prototipo\Sistema Financeiro\bin\Debug\Sistema Financeiro.exe.config
+C:\Users\kauea\Downloads\Sistema-C-Modulo-Cadastro-Prototipo\Sistema Financeiro\bin\Debug\Sistema Financeiro.exe
+C:\Users\kauea\Downloads\Sistema-C-Modulo-Cadastro-Prototipo\Sistema Financeiro\bin\Debug\Sistema Financeiro.pdb
+C:\Users\kauea\Downloads\Sistema-C-Modulo-Cadastro-Prototipo\Sistema Financeiro\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\kauea\Downloads\Sistema-C-Modulo-Cadastro-Prototipo\Sistema Financeiro\obj\Debug\Sistema_Financeiro.CadastrosForm.resources
+C:\Users\kauea\Downloads\Sistema-C-Modulo-Cadastro-Prototipo\Sistema Financeiro\obj\Debug\Sistema_Financeiro.ConfiguracoesForm.resources
+C:\Users\kauea\Downloads\Sistema-C-Modulo-Cadastro-Prototipo\Sistema Financeiro\obj\Debug\Sistema_Financeiro.DashboardForm.resources
+C:\Users\kauea\Downloads\Sistema-C-Modulo-Cadastro-Prototipo\Sistema Financeiro\obj\Debug\Sistema_Financeiro.FinanceiroForm.resources
+C:\Users\kauea\Downloads\Sistema-C-Modulo-Cadastro-Prototipo\Sistema Financeiro\obj\Debug\Sistema_Financeiro.SistemaFinanceiro.resources
+C:\Users\kauea\Downloads\Sistema-C-Modulo-Cadastro-Prototipo\Sistema Financeiro\obj\Debug\Sistema_Financeiro.Properties.Resources.resources
+C:\Users\kauea\Downloads\Sistema-C-Modulo-Cadastro-Prototipo\Sistema Financeiro\obj\Debug\Gestão Empresa.csproj.GenerateResource.cache
+C:\Users\kauea\Downloads\Sistema-C-Modulo-Cadastro-Prototipo\Sistema Financeiro\obj\Debug\Gestão Empresa.csproj.CoreCompileInputs.cache
+C:\Users\kauea\Downloads\Sistema-C-Modulo-Cadastro-Prototipo\Sistema Financeiro\obj\Debug\Gest_o E.E70B196F.Up2Date
