@@ -7,12 +7,14 @@ using System.Drawing.Text;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Documents;
 using System.Windows.Forms;
-using FontAwesome.Sharp;   
-
+using FontAwesome.Sharp;
+using Sistema_Financeiro.Forms;
 namespace Sistema_Financeiro { 
     public partial class SistemaFinanceiro : Form
     {
+        bool sideBarExpand;
 
         //fields
         private IconButton currentBtn;
@@ -45,18 +47,18 @@ namespace Sistema_Financeiro {
             {
                 DisableButton();
                 //button
-                currentBtn = (IconButton)senderBtn;
+                currentBtn = (IconButton)senderBtn;  
                 currentBtn.BackColor = Color.FromArgb(45, 45, 45);
                 currentBtn.ForeColor = Color.Gainsboro;
                 currentBtn.TextAlign = ContentAlignment.MiddleCenter;
                 currentBtn.IconColor = Color.Gainsboro;
-                currentBtn.TextImageRelation = TextImageRelation.TextBeforeImage;
-                currentBtn.ImageAlign = ContentAlignment.MiddleRight;
+                currentBtn.TextImageRelation = TextImageRelation.ImageBeforeText;
                 //left border button
                 leftBorderBtn.BackColor = color;
                 leftBorderBtn.Location = new Point(0, currentBtn.Top);
                 leftBorderBtn.Visible = true;
                 leftBorderBtn.BringToFront();
+                
             }
         }
         private void DisableButton()
@@ -65,10 +67,10 @@ namespace Sistema_Financeiro {
             {
                 currentBtn.BackColor = Color.FromArgb(15, 15, 15);
                 currentBtn.ForeColor = Color.Gainsboro;
-                currentBtn.TextAlign = ContentAlignment.MiddleLeft;
                 currentBtn.IconColor = Color.Gainsboro;
                 currentBtn.TextImageRelation = TextImageRelation.ImageBeforeText;
                 currentBtn.ImageAlign = ContentAlignment.MiddleLeft;
+               
             }
         }
 
@@ -87,57 +89,100 @@ namespace Sistema_Financeiro {
             childForm.BringToFront();
             childForm.Show();
         }
-
         //openChildForm(new DashboardForm());
         //ActivateButton(sender, RGBColors.highlight);
         private void Form1_Load(object sender, EventArgs e)
         {
 
         }
-
         private void panel1_Paint(object sender, PaintEventArgs e)
         {
 
         }
-
-
         private void BtnDashboard_Click(object sender, EventArgs e)
         {
             ActivateButton(sender, RGBColors.highlight);
             openChildForm(new DashboardForm());
         }
-
         private void BtnCadastros_Click(object sender, EventArgs e)
 
         {
             ActivateButton(sender, RGBColors.highlight);
             openChildForm(new CadastrosForm());
         }
-
         private void BtnFinanceiro_Click(object sender, EventArgs e)
         {
             ActivateButton(sender, RGBColors.highlight);
             openChildForm(new FinanceiroForm());
         }
-
         private void BtnConfiguracoes_Click(object sender, EventArgs e)
         {
             ActivateButton(sender, RGBColors.highlight);
             openChildForm(new ConfiguracoesForm());
         }
-
         private void BtnLogOut_Click(object sender, EventArgs e)
         {
             ActivateButton(sender, RGBColors.highlight);
             openChildForm(new DashboardForm());
         }
 
-        private void iconButton1_Click(object sender, EventArgs e)
+        private void iconMenuItem1_Click(object sender, EventArgs e)
+        {
+
+        }
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+        private void iconButton1_Click_1(object sender, EventArgs e)
+        {
+            ActivateButton(sender, RGBColors.highlight);
+            openChildForm(new MenuForm());
+
+        }
+        private void splitContainer1_Panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+        private void splitContainer1_SplitterMoved(object sender, SplitterEventArgs e)
+        {
+
+        }
+        private void splitContainer1_Panel2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+        private void BtnMenu_Click(object sender, EventArgs e)
+        {
+            if (sideBarExpand)
+            {
+                panelMenu.Width = 250;
+                sideBarExpand = false;
+            }
+            else
+            {
+                panelMenu.Width = 60;
+                sideBarExpand = true;
+            }
+        }
+
+        private void label1_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void iconMenuItem1_Click(object sender, EventArgs e)
+        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged_1(object sender, EventArgs e)
+        {
+            notificacoesBox.Multiline = true;
+            notificacoesBox.ScrollBars = ScrollBars.Both;
+        }
+
+        private void Notificacoes_Click(object sender, EventArgs e)
         {
 
         }
