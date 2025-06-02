@@ -7,7 +7,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Globalization;
 
 namespace Sistema_Financeiro
 {
@@ -35,7 +34,24 @@ namespace Sistema_Financeiro
 
         private void textBox2_TextChanged(object sender, EventArgs e)
         {
+            TextBox txt = (TextBox)sender;
 
+            // Impede loop ao reescrever o texto
+            string texto = new string(txt.Text.Where(char.IsDigit).ToArray());
+
+            if (string.IsNullOrEmpty(texto))
+            {
+                txt.Text = "R$ 0,00";
+                txt.SelectionStart = txt.Text.Length;
+                return;
+            }
+
+            // Converte para decimal
+            decimal valor = decimal.Parse(texto) / 100;
+
+            // Atualiza com formatação R$ e mantém cursor no fim
+            txt.Text = valor.ToString("C2", new System.Globalization.CultureInfo("pt-BR"));
+            txt.SelectionStart = txt.Text.Length;
         }
 
         private void comboBox5_SelectedIndexChanged(object sender, EventArgs e)
@@ -169,6 +185,33 @@ namespace Sistema_Financeiro
         }
 
         private void textBox3_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox7_TextChanged_1(object sender, EventArgs e)
+        {
+            TextBox txt = (TextBox)sender;
+
+            // Impede loop ao reescrever o texto
+            string texto = new string(txt.Text.Where(char.IsDigit).ToArray());
+
+            if (string.IsNullOrEmpty(texto))
+            {
+                txt.Text = "R$ 0,00";
+                txt.SelectionStart = txt.Text.Length;
+                return;
+            }
+
+            // Converte para decimal
+            decimal valor = decimal.Parse(texto) / 100;
+
+            // Atualiza com formatação R$ e mantém cursor no fim
+            txt.Text = valor.ToString("C2", new System.Globalization.CultureInfo("pt-BR"));
+            txt.SelectionStart = txt.Text.Length;
+        }
+
+        private void comboBox9_SelectedIndexChanged_1(object sender, EventArgs e)
         {
 
         }

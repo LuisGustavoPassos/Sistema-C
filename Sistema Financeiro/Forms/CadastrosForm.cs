@@ -203,44 +203,47 @@ namespace Sistema_Financeiro
 
         }
 
-        private void btn_Cadastrar_Click(object sender, EventArgs e)
-        {
+private void btn_Cadastrar_Click(object sender, EventArgs e)
+{
+    try
+    {
+        SqlConnection cn = new SqlConnection(Conn.StrCon);
+        cn.Open();
 
-            try
-            {
-                using (SqlConnection cn = new SqlConnection(Conn.StrCon))
+            string tabelaDestino = "dbo.cadastro";
+            string registro = text_registro.Text;
+            string nome = text_nome.Text;
+            string uf = text_UF.Text;
+            string cidade = text_cidade.Text;
+            string telefone = text_telefone.Text;
+            string email = text_email.Text;
+            string registroUF = text_registroEstadual.Text;
+            string tipoRegistro = "1";
+            string tipoCadastro = "1";
+            string statusAtividade = "1";
+
+            var sqlQuery = $"INSERT INTO {tabelaDestino} " +
+                           "(registro, nome, uf, cidade, telefone, email, registroUF, tipoRegistro, tipoCadastro, statusAtividade) " +
+                           $"VALUES ('{registro}', '{nome}', '{uf}', '{cidade}', '{telefone}', '{email}', '{registroUF}','{tipoRegistro}','{tipoCadastro}','{statusAtividade}')";
+
+            SqlCommand cmd = new SqlCommand(sqlQuery, cn);
+            int resultado = cmd.ExecuteNonQuery();
+
+            if (resultado > 0)
                 {
-                    cn.Open();
-
-                    string tabelaDestino = comboBox1.Text;
-                    if (tabelaDestino == "Prestador de Serviço")
-                    {
-                        tabelaDestino = "dbo.prestadorServico";
-                    }
-                    string registro = text_registro.Text;
-                    string nome = text_nome.Text;
-                    string uf = text_UF.Text;
-                    string cidade = text_cidade.Text;
-                    string telefone = text_telefone.Text;
-                    string email = text_email.Text;
-                    string registroEstadual = text_registroEstadual.Text;
-
-                    var sqlQuery = $"INSERT INTO {tabelaDestino} (registro, nome, uf, cidade, telefone, email, registroEstadual) VALUES ('{registro}', '{nome}', '{uf}', '{cidade}', '{telefone}', '{email}', '{registroEstadual}')";
-
-                    MessageBox.Show("Conectado ao banco de dados", "Sucesso!", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    MessageBox.Show("Cadastro realizado com sucesso!", "Sucesso!", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
-
-                
-                
-            }
+            else
+                {
+                    MessageBox.Show("Nenhuma linha foi inserida.");
+                }
+                    cn.Close(); // boa prática: fechar mesmo que o GC vá cuidar disso depois
+                }
             catch (Exception ex)
             {
-                MessageBox.Show("Falha ao tentar conectar\n\n" + ex.Message);
+                MessageBox.Show("Falha ao tentar conectar ou salvar\n\n" + ex.Message);
             }
-
-            
-        }
-
+    }
         private void text_registro_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
         {
 
