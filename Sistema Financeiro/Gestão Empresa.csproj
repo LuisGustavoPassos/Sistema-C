@@ -65,6 +65,23 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Conn.cs" />
+    <Compile Include="dashboard.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dashboard.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormEdicao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormEdicao.Designer.cs">
+      <DependentUpon>FormEdicao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\LoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\LoginForm.Designer.cs">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\ConfiguracoesForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -95,6 +112,12 @@
     <Compile Include="Forms\AccountForm.Designer.cs">
       <DependentUpon>AccountForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\CadastrarForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\CadastrarForm.Designer.cs">
+      <DependentUpon>CadastrarForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\MenuForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -109,6 +132,15 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Forms\AccountForm.resx">
+      <DependentUpon>AccountForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormEdicao.resx">
+      <DependentUpon>FormEdicao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\LoginForm.resx">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\CadastrosForm.resx">
       <DependentUpon>CadastrosForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -124,6 +156,9 @@
     <EmbeddedResource Include="Forms\FormMenu.resx">
       <DependentUpon>FormMenu.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CadastrarForm.resx">
+      <DependentUpon>CadastrarForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\MenuForm.resx">
       <DependentUpon>MenuForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -136,6 +171,17 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include="dashboard.xsc">
+      <DependentUpon>dashboard.xsd</DependentUpon>
+    </None>
+    <None Include="dashboard.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dashboard.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dashboard.xss">
+      <DependentUpon>dashboard.xsd</DependentUpon>
+    </None>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

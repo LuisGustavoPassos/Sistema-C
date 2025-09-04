@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Sistema_Financeiro.Forms;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -16,7 +17,7 @@ namespace Sistema_Financeiro
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new SistemaFinanceiro());
+            Application.Run(new LoginForm());
         }
     }
 }
