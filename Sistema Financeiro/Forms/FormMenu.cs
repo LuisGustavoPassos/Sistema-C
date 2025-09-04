@@ -11,7 +11,9 @@ using System.Windows.Documents;
 using System.Windows.Forms;
 using FontAwesome.Sharp;
 using Sistema_Financeiro.Forms;
-namespace Sistema_Financeiro { 
+
+namespace Sistema_Financeiro
+{
     public partial class SistemaFinanceiro : Form
     {
         bool sideBarExpand;
@@ -47,7 +49,7 @@ namespace Sistema_Financeiro {
             {
                 DisableButton();
                 //button
-                currentBtn = (IconButton)senderBtn;  
+                currentBtn = (IconButton)senderBtn;
                 currentBtn.BackColor = Color.FromArgb(45, 45, 45);
                 currentBtn.ForeColor = Color.Gainsboro;
                 currentBtn.TextAlign = ContentAlignment.MiddleCenter;
@@ -58,7 +60,7 @@ namespace Sistema_Financeiro {
                 leftBorderBtn.Location = new Point(0, currentBtn.Top);
                 leftBorderBtn.Visible = true;
                 leftBorderBtn.BringToFront();
-                
+
             }
         }
         private void DisableButton()
@@ -123,7 +125,7 @@ namespace Sistema_Financeiro {
         private void BtnLogOut_Click(object sender, EventArgs e)
         {
             ActivateButton(sender, RGBColors.highlight);
-            openChildForm(new DashboardForm());
+            openChildForm(new MenuForm());
         }
 
         private void iconMenuItem1_Click(object sender, EventArgs e)
@@ -161,7 +163,8 @@ namespace Sistema_Financeiro {
             }
             else
             {
-                panelMenu.Width = 60;
+                panelMenu.Width = 56
+                    ;
                 sideBarExpand = true;
             }
         }
@@ -178,13 +181,18 @@ namespace Sistema_Financeiro {
 
         private void textBox1_TextChanged_1(object sender, EventArgs e)
         {
-            notificacoesBox.Multiline = true;
-            notificacoesBox.ScrollBars = ScrollBars.Both;
+
         }
 
         private void Notificacoes_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void iconButton1_Click(object sender, EventArgs e)
+        {
+            ActivateButton(sender, RGBColors.highlight);
+            openChildForm(new DashboardForm());
         }
     }
 }

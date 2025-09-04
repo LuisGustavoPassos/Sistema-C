@@ -54,6 +54,11 @@ namespace Sistema_Financeiro
             this.radioButton2 = new System.Windows.Forms.RadioButton();
             this.radioButton1 = new System.Windows.Forms.RadioButton();
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.textBox15 = new System.Windows.Forms.TextBox();
+            this.label31 = new System.Windows.Forms.Label();
+            this.button5 = new System.Windows.Forms.Button();
+            this.textBox12 = new System.Windows.Forms.TextBox();
+            this.label12 = new System.Windows.Forms.Label();
             this.maskedTextBox2 = new System.Windows.Forms.MaskedTextBox();
             this.maskedTextBox1 = new System.Windows.Forms.MaskedTextBox();
             this.button1 = new System.Windows.Forms.Button();
@@ -87,13 +92,10 @@ namespace Sistema_Financeiro
             this.label14 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.btn_pesquisaCadastro = new System.Windows.Forms.Button();
-            this.label12 = new System.Windows.Forms.Label();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
             this.label11 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
             this.tabPage3 = new System.Windows.Forms.TabPage();
-            this.button4 = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.label30 = new System.Windows.Forms.Label();
             this.label29 = new System.Windows.Forms.Label();
@@ -113,14 +115,17 @@ namespace Sistema_Financeiro
             this.tabControl1.Controls.Add(this.tabPage2);
             this.tabControl1.Controls.Add(this.tabPage3);
             this.tabControl1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tabControl1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tabControl1.Location = new System.Drawing.Point(0, 0);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
             this.tabControl1.Size = new System.Drawing.Size(1094, 594);
             this.tabControl1.TabIndex = 0;
+            this.tabControl1.SelectedIndexChanged += new System.EventHandler(this.tabControl1_SelectedIndexChanged);
             // 
             // tabPage1
             // 
+            this.tabPage1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(24)))), ((int)(((byte)(24)))));
             this.tabPage1.Controls.Add(this.text_registro);
             this.tabPage1.Controls.Add(this.btn_Limpar);
             this.tabPage1.Controls.Add(this.label9);
@@ -142,13 +147,13 @@ namespace Sistema_Financeiro
             this.tabPage1.Controls.Add(this.label1);
             this.tabPage1.Controls.Add(this.radioButton2);
             this.tabPage1.Controls.Add(this.radioButton1);
-            this.tabPage1.Location = new System.Drawing.Point(4, 22);
+            this.tabPage1.ForeColor = System.Drawing.Color.GhostWhite;
+            this.tabPage1.Location = new System.Drawing.Point(4, 29);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(1086, 568);
+            this.tabPage1.Size = new System.Drawing.Size(1086, 561);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Novo Cadastro";
-            this.tabPage1.UseVisualStyleBackColor = true;
             this.tabPage1.Click += new System.EventHandler(this.tabPage1_Click);
             // 
             // text_registro
@@ -160,10 +165,12 @@ namespace Sistema_Financeiro
             this.text_registro.Name = "text_registro";
             this.text_registro.Size = new System.Drawing.Size(202, 32);
             this.text_registro.TabIndex = 3;
+            this.text_registro.TextMaskFormat = System.Windows.Forms.MaskFormat.ExcludePromptAndLiterals;
             this.text_registro.MaskInputRejected += new System.Windows.Forms.MaskInputRejectedEventHandler(this.text_registro_MaskInputRejected);
             // 
             // btn_Limpar
             // 
+            this.btn_Limpar.ForeColor = System.Drawing.Color.Black;
             this.btn_Limpar.Location = new System.Drawing.Point(341, 504);
             this.btn_Limpar.Name = "btn_Limpar";
             this.btn_Limpar.Size = new System.Drawing.Size(281, 50);
@@ -177,12 +184,13 @@ namespace Sistema_Financeiro
             this.label9.AutoSize = true;
             this.label9.Location = new System.Drawing.Point(447, 16);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(88, 13);
+            this.label9.Size = new System.Drawing.Size(130, 20);
             this.label9.TabIndex = 60;
             this.label9.Text = "Tipo de Cadastro";
             // 
             // btn_Cadastrar
             // 
+            this.btn_Cadastrar.ForeColor = System.Drawing.Color.Black;
             this.btn_Cadastrar.Location = new System.Drawing.Point(32, 504);
             this.btn_Cadastrar.Name = "btn_Cadastrar";
             this.btn_Cadastrar.Size = new System.Drawing.Size(281, 50);
@@ -195,6 +203,7 @@ namespace Sistema_Financeiro
             // 
             this.text_registroEstadual.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
             this.text_registroEstadual.Location = new System.Drawing.Point(78, 446);
+            this.text_registroEstadual.MaxLength = 40;
             this.text_registroEstadual.Name = "text_registroEstadual";
             this.text_registroEstadual.Size = new System.Drawing.Size(235, 32);
             this.text_registroEstadual.TabIndex = 9;
@@ -213,6 +222,7 @@ namespace Sistema_Financeiro
             // 
             this.text_email.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
             this.text_email.Location = new System.Drawing.Point(127, 395);
+            this.text_email.MaxLength = 100;
             this.text_email.Name = "text_email";
             this.text_email.Size = new System.Drawing.Size(321, 32);
             this.text_email.TabIndex = 8;
@@ -231,6 +241,7 @@ namespace Sistema_Financeiro
             // 
             this.text_telefone.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
             this.text_telefone.Location = new System.Drawing.Point(127, 340);
+            this.text_telefone.MaxLength = 20;
             this.text_telefone.Name = "text_telefone";
             this.text_telefone.Size = new System.Drawing.Size(321, 32);
             this.text_telefone.TabIndex = 7;
@@ -249,6 +260,7 @@ namespace Sistema_Financeiro
             // 
             this.text_cidade.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
             this.text_cidade.Location = new System.Drawing.Point(127, 289);
+            this.text_cidade.MaxLength = 100;
             this.text_cidade.Name = "text_cidade";
             this.text_cidade.Size = new System.Drawing.Size(321, 32);
             this.text_cidade.TabIndex = 6;
@@ -319,6 +331,7 @@ namespace Sistema_Financeiro
             // 
             this.text_nome.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
             this.text_nome.Location = new System.Drawing.Point(173, 182);
+            this.text_nome.MaxLength = 100;
             this.text_nome.Name = "text_nome";
             this.text_nome.Size = new System.Drawing.Size(459, 32);
             this.text_nome.TabIndex = 4;
@@ -356,7 +369,7 @@ namespace Sistema_Financeiro
             "Fornecedor"});
             this.comboBox1.Location = new System.Drawing.Point(447, 35);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(143, 21);
+            this.comboBox1.Size = new System.Drawing.Size(143, 28);
             this.comboBox1.TabIndex = 0;
             this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged_1);
             // 
@@ -369,13 +382,14 @@ namespace Sistema_Financeiro
             this.label1.Size = new System.Drawing.Size(435, 54);
             this.label1.TabIndex = 43;
             this.label1.Text = "NOVO CADASTRO";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // radioButton2
             // 
             this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(127, 77);
+            this.radioButton2.Location = new System.Drawing.Point(160, 77);
             this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(101, 17);
+            this.radioButton2.Size = new System.Drawing.Size(138, 24);
             this.radioButton2.TabIndex = 2;
             this.radioButton2.TabStop = true;
             this.radioButton2.Text = "Pessoa Jurídica";
@@ -387,7 +401,7 @@ namespace Sistema_Financeiro
             this.radioButton1.AutoSize = true;
             this.radioButton1.Location = new System.Drawing.Point(29, 77);
             this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(92, 17);
+            this.radioButton1.Size = new System.Drawing.Size(125, 24);
             this.radioButton1.TabIndex = 1;
             this.radioButton1.TabStop = true;
             this.radioButton1.Text = "Pessoa Física";
@@ -396,6 +410,12 @@ namespace Sistema_Financeiro
             // 
             // tabPage2
             // 
+            this.tabPage2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(24)))), ((int)(((byte)(24)))));
+            this.tabPage2.Controls.Add(this.textBox15);
+            this.tabPage2.Controls.Add(this.label31);
+            this.tabPage2.Controls.Add(this.button5);
+            this.tabPage2.Controls.Add(this.textBox12);
+            this.tabPage2.Controls.Add(this.label12);
             this.tabPage2.Controls.Add(this.maskedTextBox2);
             this.tabPage2.Controls.Add(this.maskedTextBox1);
             this.tabPage2.Controls.Add(this.button1);
@@ -429,19 +449,65 @@ namespace Sistema_Financeiro
             this.tabPage2.Controls.Add(this.label14);
             this.tabPage2.Controls.Add(this.label13);
             this.tabPage2.Controls.Add(this.btn_pesquisaCadastro);
-            this.tabPage2.Controls.Add(this.label12);
-            this.tabPage2.Controls.Add(this.comboBox2);
             this.tabPage2.Controls.Add(this.label11);
             this.tabPage2.Controls.Add(this.textBox1);
             this.tabPage2.Controls.Add(this.label10);
-            this.tabPage2.Location = new System.Drawing.Point(4, 22);
+            this.tabPage2.ForeColor = System.Drawing.Color.Gainsboro;
+            this.tabPage2.Location = new System.Drawing.Point(4, 29);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(1086, 568);
+            this.tabPage2.Size = new System.Drawing.Size(1086, 561);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Editar Cadastro";
-            this.tabPage2.UseVisualStyleBackColor = true;
             this.tabPage2.Click += new System.EventHandler(this.tabPage2_Click);
+            // 
+            // textBox15
+            // 
+            this.textBox15.Location = new System.Drawing.Point(812, 210);
+            this.textBox15.Name = "textBox15";
+            this.textBox15.ReadOnly = true;
+            this.textBox15.Size = new System.Drawing.Size(159, 26);
+            this.textBox15.TabIndex = 91;
+            this.textBox15.TextChanged += new System.EventHandler(this.textBox15_TextChanged);
+            // 
+            // label31
+            // 
+            this.label31.AutoSize = true;
+            this.label31.Location = new System.Drawing.Point(809, 187);
+            this.label31.Name = "label31";
+            this.label31.Size = new System.Drawing.Size(103, 20);
+            this.label31.TabIndex = 90;
+            this.label31.Text = "Tipo Registro";
+            this.label31.Click += new System.EventHandler(this.label31_Click);
+            // 
+            // button5
+            // 
+            this.button5.ForeColor = System.Drawing.Color.Black;
+            this.button5.Location = new System.Drawing.Point(661, 475);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(281, 50);
+            this.button5.TabIndex = 89;
+            this.button5.Text = "Ativar/Inativar";
+            this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
+            // 
+            // textBox12
+            // 
+            this.textBox12.Location = new System.Drawing.Point(812, 160);
+            this.textBox12.Name = "textBox12";
+            this.textBox12.ReadOnly = true;
+            this.textBox12.Size = new System.Drawing.Size(159, 26);
+            this.textBox12.TabIndex = 88;
+            this.textBox12.TextChanged += new System.EventHandler(this.textBox12_TextChanged);
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Location = new System.Drawing.Point(809, 137);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(95, 20);
+            this.label12.TabIndex = 87;
+            this.label12.Text = "Ativo/Inativo";
             // 
             // maskedTextBox2
             // 
@@ -449,7 +515,7 @@ namespace Sistema_Financeiro
             this.maskedTextBox2.Location = new System.Drawing.Point(24, 160);
             this.maskedTextBox2.Name = "maskedTextBox2";
             this.maskedTextBox2.ReadOnly = true;
-            this.maskedTextBox2.Size = new System.Drawing.Size(156, 20);
+            this.maskedTextBox2.Size = new System.Drawing.Size(156, 26);
             this.maskedTextBox2.TabIndex = 72;
             // 
             // maskedTextBox1
@@ -457,22 +523,25 @@ namespace Sistema_Financeiro
             this.maskedTextBox1.CutCopyMaskFormat = System.Windows.Forms.MaskFormat.ExcludePromptAndLiterals;
             this.maskedTextBox1.Location = new System.Drawing.Point(24, 327);
             this.maskedTextBox1.Name = "maskedTextBox1";
-            this.maskedTextBox1.Size = new System.Drawing.Size(156, 20);
+            this.maskedTextBox1.Size = new System.Drawing.Size(156, 26);
             this.maskedTextBox1.TabIndex = 15;
             this.maskedTextBox1.MaskInputRejected += new System.Windows.Forms.MaskInputRejectedEventHandler(this.maskedTextBox1_MaskInputRejected);
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(393, 475);
+            this.button1.ForeColor = System.Drawing.Color.Black;
+            this.button1.Location = new System.Drawing.Point(343, 475);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(281, 50);
             this.button1.TabIndex = 23;
             this.button1.Text = "Limpar";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(32, 475);
+            this.button2.ForeColor = System.Drawing.Color.Black;
+            this.button2.Location = new System.Drawing.Point(24, 475);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(281, 50);
             this.button2.TabIndex = 22;
@@ -525,36 +594,41 @@ namespace Sistema_Financeiro
             // textBox9
             // 
             this.textBox9.Location = new System.Drawing.Point(622, 376);
+            this.textBox9.MaxLength = 100;
             this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(156, 20);
+            this.textBox9.Size = new System.Drawing.Size(156, 26);
             this.textBox9.TabIndex = 21;
             // 
             // textBox10
             // 
             this.textBox10.Location = new System.Drawing.Point(423, 376);
+            this.textBox10.MaxLength = 20;
             this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(156, 20);
+            this.textBox10.Size = new System.Drawing.Size(156, 26);
             this.textBox10.TabIndex = 20;
             // 
             // textBox11
             // 
             this.textBox11.Location = new System.Drawing.Point(203, 376);
+            this.textBox11.MaxLength = 100;
             this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(156, 20);
+            this.textBox11.Size = new System.Drawing.Size(156, 26);
             this.textBox11.TabIndex = 19;
             // 
             // textBox13
             // 
             this.textBox13.Location = new System.Drawing.Point(622, 327);
+            this.textBox13.MaxLength = 40;
             this.textBox13.Name = "textBox13";
-            this.textBox13.Size = new System.Drawing.Size(159, 20);
+            this.textBox13.Size = new System.Drawing.Size(159, 26);
             this.textBox13.TabIndex = 17;
             // 
             // textBox14
             // 
             this.textBox14.Location = new System.Drawing.Point(203, 328);
+            this.textBox14.MaxLength = 100;
             this.textBox14.Name = "textBox14";
-            this.textBox14.Size = new System.Drawing.Size(399, 20);
+            this.textBox14.Size = new System.Drawing.Size(399, 26);
             this.textBox14.TabIndex = 16;
             // 
             // label21
@@ -562,7 +636,7 @@ namespace Sistema_Financeiro
             this.label21.AutoSize = true;
             this.label21.Location = new System.Drawing.Point(619, 305);
             this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(23, 13);
+            this.label21.Size = new System.Drawing.Size(33, 20);
             this.label21.TabIndex = 86;
             this.label21.Text = "I.E.";
             // 
@@ -571,7 +645,7 @@ namespace Sistema_Financeiro
             this.label22.AutoSize = true;
             this.label22.Location = new System.Drawing.Point(619, 355);
             this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(42, 13);
+            this.label22.Size = new System.Drawing.Size(63, 20);
             this.label22.TabIndex = 85;
             this.label22.Text = "E-MAIL";
             // 
@@ -580,7 +654,7 @@ namespace Sistema_Financeiro
             this.label23.AutoSize = true;
             this.label23.Location = new System.Drawing.Point(420, 355);
             this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(49, 13);
+            this.label23.Size = new System.Drawing.Size(71, 20);
             this.label23.TabIndex = 84;
             this.label23.Text = "Telefone";
             // 
@@ -589,7 +663,7 @@ namespace Sistema_Financeiro
             this.label24.AutoSize = true;
             this.label24.Location = new System.Drawing.Point(203, 355);
             this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(40, 13);
+            this.label24.Size = new System.Drawing.Size(59, 20);
             this.label24.TabIndex = 83;
             this.label24.Text = "Cidade";
             // 
@@ -598,7 +672,7 @@ namespace Sistema_Financeiro
             this.label25.AutoSize = true;
             this.label25.Location = new System.Drawing.Point(24, 355);
             this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(21, 13);
+            this.label25.Size = new System.Drawing.Size(31, 20);
             this.label25.TabIndex = 82;
             this.label25.Text = "UF";
             // 
@@ -607,7 +681,7 @@ namespace Sistema_Financeiro
             this.label26.AutoSize = true;
             this.label26.Location = new System.Drawing.Point(200, 305);
             this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(70, 13);
+            this.label26.Size = new System.Drawing.Size(103, 20);
             this.label26.TabIndex = 81;
             this.label26.Text = "Razão Social";
             // 
@@ -616,7 +690,7 @@ namespace Sistema_Financeiro
             this.label27.AutoSize = true;
             this.label27.Location = new System.Drawing.Point(24, 305);
             this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(34, 13);
+            this.label27.Size = new System.Drawing.Size(49, 20);
             this.label27.TabIndex = 80;
             this.label27.Text = "CNPJ";
             // 
@@ -635,7 +709,7 @@ namespace Sistema_Financeiro
             this.textBox8.Location = new System.Drawing.Point(622, 208);
             this.textBox8.Name = "textBox8";
             this.textBox8.ReadOnly = true;
-            this.textBox8.Size = new System.Drawing.Size(156, 20);
+            this.textBox8.Size = new System.Drawing.Size(156, 26);
             this.textBox8.TabIndex = 78;
             // 
             // textBox7
@@ -643,7 +717,7 @@ namespace Sistema_Financeiro
             this.textBox7.Location = new System.Drawing.Point(423, 208);
             this.textBox7.Name = "textBox7";
             this.textBox7.ReadOnly = true;
-            this.textBox7.Size = new System.Drawing.Size(156, 20);
+            this.textBox7.Size = new System.Drawing.Size(156, 26);
             this.textBox7.TabIndex = 77;
             // 
             // textBox6
@@ -651,7 +725,7 @@ namespace Sistema_Financeiro
             this.textBox6.Location = new System.Drawing.Point(203, 208);
             this.textBox6.Name = "textBox6";
             this.textBox6.ReadOnly = true;
-            this.textBox6.Size = new System.Drawing.Size(156, 20);
+            this.textBox6.Size = new System.Drawing.Size(156, 26);
             this.textBox6.TabIndex = 76;
             // 
             // textBox5
@@ -659,7 +733,7 @@ namespace Sistema_Financeiro
             this.textBox5.Location = new System.Drawing.Point(25, 208);
             this.textBox5.Name = "textBox5";
             this.textBox5.ReadOnly = true;
-            this.textBox5.Size = new System.Drawing.Size(47, 20);
+            this.textBox5.Size = new System.Drawing.Size(47, 26);
             this.textBox5.TabIndex = 75;
             // 
             // textBox4
@@ -667,7 +741,7 @@ namespace Sistema_Financeiro
             this.textBox4.Location = new System.Drawing.Point(622, 159);
             this.textBox4.Name = "textBox4";
             this.textBox4.ReadOnly = true;
-            this.textBox4.Size = new System.Drawing.Size(159, 20);
+            this.textBox4.Size = new System.Drawing.Size(159, 26);
             this.textBox4.TabIndex = 74;
             // 
             // textBox3
@@ -675,7 +749,7 @@ namespace Sistema_Financeiro
             this.textBox3.Location = new System.Drawing.Point(203, 160);
             this.textBox3.Name = "textBox3";
             this.textBox3.ReadOnly = true;
-            this.textBox3.Size = new System.Drawing.Size(399, 20);
+            this.textBox3.Size = new System.Drawing.Size(399, 26);
             this.textBox3.TabIndex = 73;
             // 
             // label20
@@ -683,7 +757,7 @@ namespace Sistema_Financeiro
             this.label20.AutoSize = true;
             this.label20.Location = new System.Drawing.Point(619, 137);
             this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(23, 13);
+            this.label20.Size = new System.Drawing.Size(33, 20);
             this.label20.TabIndex = 71;
             this.label20.Text = "I.E.";
             // 
@@ -692,7 +766,7 @@ namespace Sistema_Financeiro
             this.label19.AutoSize = true;
             this.label19.Location = new System.Drawing.Point(619, 187);
             this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(42, 13);
+            this.label19.Size = new System.Drawing.Size(63, 20);
             this.label19.TabIndex = 70;
             this.label19.Text = "E-MAIL";
             // 
@@ -701,7 +775,7 @@ namespace Sistema_Financeiro
             this.label18.AutoSize = true;
             this.label18.Location = new System.Drawing.Point(420, 187);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(49, 13);
+            this.label18.Size = new System.Drawing.Size(71, 20);
             this.label18.TabIndex = 69;
             this.label18.Text = "Telefone";
             // 
@@ -710,7 +784,7 @@ namespace Sistema_Financeiro
             this.label17.AutoSize = true;
             this.label17.Location = new System.Drawing.Point(203, 187);
             this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(40, 13);
+            this.label17.Size = new System.Drawing.Size(59, 20);
             this.label17.TabIndex = 68;
             this.label17.Text = "Cidade";
             // 
@@ -719,7 +793,7 @@ namespace Sistema_Financeiro
             this.label16.AutoSize = true;
             this.label16.Location = new System.Drawing.Point(24, 187);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(21, 13);
+            this.label16.Size = new System.Drawing.Size(31, 20);
             this.label16.TabIndex = 67;
             this.label16.Text = "UF";
             // 
@@ -728,7 +802,7 @@ namespace Sistema_Financeiro
             this.label15.AutoSize = true;
             this.label15.Location = new System.Drawing.Point(200, 137);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(70, 13);
+            this.label15.Size = new System.Drawing.Size(103, 20);
             this.label15.TabIndex = 66;
             this.label15.Text = "Razão Social";
             // 
@@ -737,7 +811,7 @@ namespace Sistema_Financeiro
             this.label14.AutoSize = true;
             this.label14.Location = new System.Drawing.Point(24, 137);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(34, 13);
+            this.label14.Size = new System.Drawing.Size(49, 20);
             this.label14.TabIndex = 65;
             this.label14.Text = "CNPJ";
             // 
@@ -753,44 +827,21 @@ namespace Sistema_Financeiro
             // 
             // btn_pesquisaCadastro
             // 
-            this.btn_pesquisaCadastro.Location = new System.Drawing.Point(800, 39);
+            this.btn_pesquisaCadastro.ForeColor = System.Drawing.Color.Black;
+            this.btn_pesquisaCadastro.Location = new System.Drawing.Point(652, 39);
             this.btn_pesquisaCadastro.Name = "btn_pesquisaCadastro";
-            this.btn_pesquisaCadastro.Size = new System.Drawing.Size(75, 23);
+            this.btn_pesquisaCadastro.Size = new System.Drawing.Size(94, 29);
             this.btn_pesquisaCadastro.TabIndex = 14;
             this.btn_pesquisaCadastro.Text = "Pesquisar";
             this.btn_pesquisaCadastro.UseVisualStyleBackColor = true;
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(638, 22);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(88, 13);
-            this.label12.TabIndex = 62;
-            this.label12.Text = "Tipo de Cadastro";
-            // 
-            // comboBox2
-            // 
-            this.comboBox2.DropDownHeight = 200;
-            this.comboBox2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox2.DropDownWidth = 250;
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.IntegralHeight = false;
-            this.comboBox2.Items.AddRange(new object[] {
-            "Cliente",
-            "Prestador de Serviço",
-            "Fornecedor"});
-            this.comboBox2.Location = new System.Drawing.Point(638, 41);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(143, 21);
-            this.comboBox2.TabIndex = 13;
+            this.btn_pesquisaCadastro.Click += new System.EventHandler(this.btn_pesquisaCadastro_Click);
             // 
             // label11
             // 
             this.label11.AutoSize = true;
             this.label11.Location = new System.Drawing.Point(521, 22);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(40, 13);
+            this.label11.Size = new System.Drawing.Size(59, 20);
             this.label11.TabIndex = 46;
             this.label11.Text = "Codigo";
             // 
@@ -798,7 +849,7 @@ namespace Sistema_Financeiro
             // 
             this.textBox1.Location = new System.Drawing.Point(524, 42);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
+            this.textBox1.Size = new System.Drawing.Size(100, 26);
             this.textBox1.TabIndex = 12;
             this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
@@ -815,48 +866,44 @@ namespace Sistema_Financeiro
             // 
             // tabPage3
             // 
-            this.tabPage3.Controls.Add(this.button4);
+            this.tabPage3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(24)))), ((int)(((byte)(24)))));
             this.tabPage3.Controls.Add(this.dataGridView1);
             this.tabPage3.Controls.Add(this.label30);
             this.tabPage3.Controls.Add(this.label29);
             this.tabPage3.Controls.Add(this.button3);
             this.tabPage3.Controls.Add(this.comboBox4);
             this.tabPage3.Controls.Add(this.textBox2);
-            this.tabPage3.Location = new System.Drawing.Point(4, 22);
+            this.tabPage3.ForeColor = System.Drawing.Color.Black;
+            this.tabPage3.Location = new System.Drawing.Point(4, 29);
             this.tabPage3.Name = "tabPage3";
             this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage3.Size = new System.Drawing.Size(1086, 568);
+            this.tabPage3.Size = new System.Drawing.Size(1086, 561);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "Consultar Cadastro";
-            this.tabPage3.UseVisualStyleBackColor = true;
-            // 
-            // button4
-            // 
-            this.button4.Location = new System.Drawing.Point(522, 92);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(103, 23);
-            this.button4.TabIndex = 48;
-            this.button4.Text = "CONNECT DB";
-            this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
+            this.tabPage3.Click += new System.EventHandler(this.tabPage3_Click);
             // 
             // dataGridView1
             // 
             this.dataGridView1.AllowUserToAddRows = false;
             this.dataGridView1.AllowUserToDeleteRows = false;
+            this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.dataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.GridColor = System.Drawing.SystemColors.WindowText;
             this.dataGridView1.Location = new System.Drawing.Point(8, 141);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
+            this.dataGridView1.RowHeadersVisible = false;
             this.dataGridView1.Size = new System.Drawing.Size(1070, 410);
             this.dataGridView1.TabIndex = 47;
             // 
             // label30
             // 
             this.label30.AutoSize = true;
+            this.label30.ForeColor = System.Drawing.Color.Gainsboro;
             this.label30.Location = new System.Drawing.Point(14, 73);
             this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(96, 13);
+            this.label30.Size = new System.Drawing.Size(144, 20);
             this.label30.TabIndex = 46;
             this.label30.Text = "Filtrar consulta por:";
             this.label30.Click += new System.EventHandler(this.label30_Click);
@@ -865,6 +912,7 @@ namespace Sistema_Financeiro
             // 
             this.label29.AutoSize = true;
             this.label29.Font = new System.Drawing.Font("Microsoft Sans Serif", 35F);
+            this.label29.ForeColor = System.Drawing.Color.Gainsboro;
             this.label29.Location = new System.Drawing.Point(8, 3);
             this.label29.Name = "label29";
             this.label29.Size = new System.Drawing.Size(586, 54);
@@ -875,7 +923,7 @@ namespace Sistema_Financeiro
             // 
             this.button3.Location = new System.Drawing.Point(441, 92);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
+            this.button3.Size = new System.Drawing.Size(87, 28);
             this.button3.TabIndex = 2;
             this.button3.Text = "Pesquisar";
             this.button3.UseVisualStyleBackColor = true;
@@ -899,7 +947,7 @@ namespace Sistema_Financeiro
             "Registro Geral"});
             this.comboBox4.Location = new System.Drawing.Point(14, 92);
             this.comboBox4.Name = "comboBox4";
-            this.comboBox4.Size = new System.Drawing.Size(121, 21);
+            this.comboBox4.Size = new System.Drawing.Size(121, 28);
             this.comboBox4.TabIndex = 1;
             this.comboBox4.SelectedIndexChanged += new System.EventHandler(this.comboBox4_SelectedIndexChanged);
             // 
@@ -907,16 +955,17 @@ namespace Sistema_Financeiro
             // 
             this.textBox2.Location = new System.Drawing.Point(150, 92);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(285, 20);
+            this.textBox2.Size = new System.Drawing.Size(285, 26);
             this.textBox2.TabIndex = 0;
             // 
             // CadastrosForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(24)))), ((int)(((byte)(24)))));
             this.ClientSize = new System.Drawing.Size(1094, 594);
             this.Controls.Add(this.tabControl1);
+            this.ForeColor = System.Drawing.Color.Black;
             this.Name = "CadastrosForm";
             this.Text = "Cadastros";
             this.Load += new System.EventHandler(this.CadastrosForm_Load);
@@ -984,8 +1033,6 @@ namespace Sistema_Financeiro
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.ComboBox comboBox2;
         private System.Windows.Forms.Button btn_pesquisaCadastro;
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Label label14;
@@ -1027,6 +1074,10 @@ namespace Sistema_Financeiro
         private System.Windows.Forms.Label label30;
         private System.Windows.Forms.Label label29;
         private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.TextBox textBox12;
+        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.TextBox textBox15;
+        private System.Windows.Forms.Label label31;
     }
 }

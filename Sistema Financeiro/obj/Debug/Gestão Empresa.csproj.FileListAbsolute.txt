@@ -65,3 +65,377 @@ C:\Users\luisg\source\repos\Sistema-C-Branch-Financeiro\Sistema Financeiro\bin\D
 C:\Users\luisg\source\repos\Sistema-C-Branch-Financeiro\Sistema Financeiro\bin\Debug\LiveCharts.Wpf.xml
 C:\Users\luisg\source\repos\Sistema-C-Branch-Financeiro\Sistema Financeiro\obj\Debug\Sistema_Financeiro.Forms.MenuForm.resources
 C:\Users\luisg\source\repos\Sistema-C-Branch-Financeiro\Sistema Financeiro\obj\Debug\Sistema Financeiro.exe.config
+C:\Users\kauea\Downloads\Sistema-C-master\Sistema Financeiro\obj\Debug\Gestão Empresa.csproj.AssemblyReference.cache
+C:\Users\kauea\Downloads\Sistema-C-master\Sistema Financeiro\obj\Debug\Sistema Financeiro.exe
+C:\Users\kauea\Downloads\Sistema-C-master\Sistema Financeiro\obj\Debug\Sistema Financeiro.pdb
+C:\Users\kauea\Downloads\Sistema-C-master\Sistema Financeiro\bin\Debug\Sistema Financeiro.exe.config
+C:\Users\kauea\Downloads\Sistema-C-master\Sistema Financeiro\bin\Debug\Sistema Financeiro.exe
+C:\Users\kauea\Downloads\Sistema-C-master\Sistema Financeiro\bin\Debug\Sistema Financeiro.pdb
+C:\Users\kauea\Downloads\Sistema-C-master\Sistema Financeiro\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\kauea\Downloads\Sistema-C-master\Sistema Financeiro\bin\Debug\LiveCharts.dll
+C:\Users\kauea\Downloads\Sistema-C-master\Sistema Financeiro\bin\Debug\LiveCharts.WinForms.dll
+C:\Users\kauea\Downloads\Sistema-C-master\Sistema Financeiro\bin\Debug\LiveCharts.Wpf.dll
+C:\Users\kauea\Downloads\Sistema-C-master\Sistema Financeiro\bin\Debug\LiveCharts.pdb
+C:\Users\kauea\Downloads\Sistema-C-master\Sistema Financeiro\bin\Debug\LiveCharts.xml
+C:\Users\kauea\Downloads\Sistema-C-master\Sistema Financeiro\bin\Debug\LiveCharts.WinForms.pdb
+C:\Users\kauea\Downloads\Sistema-C-master\Sistema Financeiro\bin\Debug\LiveCharts.WinForms.xml
+C:\Users\kauea\Downloads\Sistema-C-master\Sistema Financeiro\bin\Debug\LiveCharts.Wpf.pdb
+C:\Users\kauea\Downloads\Sistema-C-master\Sistema Financeiro\bin\Debug\LiveCharts.Wpf.xml
+C:\Users\kauea\Downloads\Sistema-C-master\Sistema Financeiro\obj\Debug\Sistema_Financeiro.CadastrosForm.resources
+C:\Users\kauea\Downloads\Sistema-C-master\Sistema Financeiro\obj\Debug\Sistema_Financeiro.ConfiguracoesForm.resources
+C:\Users\kauea\Downloads\Sistema-C-master\Sistema Financeiro\obj\Debug\Sistema_Financeiro.DashboardForm.resources
+C:\Users\kauea\Downloads\Sistema-C-master\Sistema Financeiro\obj\Debug\Sistema_Financeiro.FinanceiroForm.resources
+C:\Users\kauea\Downloads\Sistema-C-master\Sistema Financeiro\obj\Debug\Sistema_Financeiro.SistemaFinanceiro.resources
+C:\Users\kauea\Downloads\Sistema-C-master\Sistema Financeiro\obj\Debug\Sistema_Financeiro.Forms.MenuForm.resources
+C:\Users\kauea\Downloads\Sistema-C-master\Sistema Financeiro\obj\Debug\Sistema_Financeiro.Properties.Resources.resources
+C:\Users\kauea\Downloads\Sistema-C-master\Sistema Financeiro\obj\Debug\Gestão Empresa.csproj.GenerateResource.cache
+C:\Users\kauea\Downloads\Sistema-C-master\Sistema Financeiro\obj\Debug\Gestão Empresa.csproj.CoreCompileInputs.cache
+C:\Users\kauea\Downloads\Sistema-C-master\Sistema Financeiro\obj\Debug\Gest_o E.E70B196F.Up2Date
+C:\Users\weder\source\repos\Sistema-C-master\Sistema-C-master\Sistema Financeiro\obj\Debug\Gestão Empresa.csproj.AssemblyReference.cache
+C:\Users\weder\source\repos\Sistema-C-master\Sistema-C-master\Sistema Financeiro\obj\Debug\Sistema Financeiro.exe
+C:\Users\weder\source\repos\Sistema-C-master\Sistema-C-master\Sistema Financeiro\obj\Debug\Sistema Financeiro.pdb
+C:\Users\weder\source\repos\Sistema-C-master\Sistema-C-master\Sistema Financeiro\bin\Debug\Sistema Financeiro.exe.config
+C:\Users\weder\source\repos\Sistema-C-master\Sistema-C-master\Sistema Financeiro\bin\Debug\Sistema Financeiro.exe
+C:\Users\weder\source\repos\Sistema-C-master\Sistema-C-master\Sistema Financeiro\bin\Debug\Sistema Financeiro.pdb
+C:\Users\weder\source\repos\Sistema-C-master\Sistema-C-master\Sistema Financeiro\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\weder\source\repos\Sistema-C-master\Sistema-C-master\Sistema Financeiro\bin\Debug\LiveCharts.dll
+C:\Users\weder\source\repos\Sistema-C-master\Sistema-C-master\Sistema Financeiro\bin\Debug\LiveCharts.WinForms.dll
+C:\Users\weder\source\repos\Sistema-C-master\Sistema-C-master\Sistema Financeiro\bin\Debug\LiveCharts.Wpf.dll
+C:\Users\weder\source\repos\Sistema-C-master\Sistema-C-master\Sistema Financeiro\bin\Debug\LiveCharts.pdb
+C:\Users\weder\source\repos\Sistema-C-master\Sistema-C-master\Sistema Financeiro\bin\Debug\LiveCharts.xml
+C:\Users\weder\source\repos\Sistema-C-master\Sistema-C-master\Sistema Financeiro\bin\Debug\LiveCharts.WinForms.pdb
+C:\Users\weder\source\repos\Sistema-C-master\Sistema-C-master\Sistema Financeiro\bin\Debug\LiveCharts.WinForms.xml
+C:\Users\weder\source\repos\Sistema-C-master\Sistema-C-master\Sistema Financeiro\bin\Debug\LiveCharts.Wpf.pdb
+C:\Users\weder\source\repos\Sistema-C-master\Sistema-C-master\Sistema Financeiro\bin\Debug\LiveCharts.Wpf.xml
+C:\Users\weder\source\repos\Sistema-C-master\Sistema-C-master\Sistema Financeiro\obj\Debug\Sistema_Financeiro.CadastrosForm.resources
+C:\Users\weder\source\repos\Sistema-C-master\Sistema-C-master\Sistema Financeiro\obj\Debug\Sistema_Financeiro.ConfiguracoesForm.resources
+C:\Users\weder\source\repos\Sistema-C-master\Sistema-C-master\Sistema Financeiro\obj\Debug\Sistema_Financeiro.DashboardForm.resources
+C:\Users\weder\source\repos\Sistema-C-master\Sistema-C-master\Sistema Financeiro\obj\Debug\Sistema_Financeiro.FinanceiroForm.resources
+C:\Users\weder\source\repos\Sistema-C-master\Sistema-C-master\Sistema Financeiro\obj\Debug\Sistema_Financeiro.SistemaFinanceiro.resources
+C:\Users\weder\source\repos\Sistema-C-master\Sistema-C-master\Sistema Financeiro\obj\Debug\Sistema_Financeiro.Forms.MenuForm.resources
+C:\Users\weder\source\repos\Sistema-C-master\Sistema-C-master\Sistema Financeiro\obj\Debug\Sistema_Financeiro.Properties.Resources.resources
+C:\Users\weder\source\repos\Sistema-C-master\Sistema-C-master\Sistema Financeiro\obj\Debug\Gestão Empresa.csproj.GenerateResource.cache
+C:\Users\weder\source\repos\Sistema-C-master\Sistema-C-master\Sistema Financeiro\obj\Debug\Gestão Empresa.csproj.CoreCompileInputs.cache
+C:\Users\weder\source\repos\Sistema-C-master\Sistema-C-master\Sistema Financeiro\obj\Debug\Gest_o E.E70B196F.Up2Date
+C:\Users\kauea\Desktop\Sistema C\Sistema_C_04-06-2025\Sistema-C-master\Sistema Financeiro\obj\Debug\Gestão Empresa.csproj.AssemblyReference.cache
+C:\Users\kauea\Desktop\Sistema C\Sistema_C_04-06-2025\Sistema-C-master\Sistema Financeiro\obj\Debug\Sistema Financeiro.exe
+C:\Users\kauea\Desktop\Sistema C\Sistema_C_04-06-2025\Sistema-C-master\Sistema Financeiro\obj\Debug\Sistema Financeiro.pdb
+C:\Users\kauea\Desktop\Sistema C\Sistema_C_04-06-2025\Sistema-C-master\Sistema Financeiro\bin\Debug\Sistema Financeiro.exe.config
+C:\Users\kauea\Desktop\Sistema C\Sistema_C_04-06-2025\Sistema-C-master\Sistema Financeiro\bin\Debug\Sistema Financeiro.exe
+C:\Users\kauea\Desktop\Sistema C\Sistema_C_04-06-2025\Sistema-C-master\Sistema Financeiro\bin\Debug\Sistema Financeiro.pdb
+C:\Users\kauea\Desktop\Sistema C\Sistema_C_04-06-2025\Sistema-C-master\Sistema Financeiro\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\kauea\Desktop\Sistema C\Sistema_C_04-06-2025\Sistema-C-master\Sistema Financeiro\bin\Debug\LiveCharts.dll
+C:\Users\kauea\Desktop\Sistema C\Sistema_C_04-06-2025\Sistema-C-master\Sistema Financeiro\bin\Debug\LiveCharts.WinForms.dll
+C:\Users\kauea\Desktop\Sistema C\Sistema_C_04-06-2025\Sistema-C-master\Sistema Financeiro\bin\Debug\LiveCharts.Wpf.dll
+C:\Users\kauea\Desktop\Sistema C\Sistema_C_04-06-2025\Sistema-C-master\Sistema Financeiro\bin\Debug\LiveCharts.pdb
+C:\Users\kauea\Desktop\Sistema C\Sistema_C_04-06-2025\Sistema-C-master\Sistema Financeiro\bin\Debug\LiveCharts.xml
+C:\Users\kauea\Desktop\Sistema C\Sistema_C_04-06-2025\Sistema-C-master\Sistema Financeiro\bin\Debug\LiveCharts.WinForms.pdb
+C:\Users\kauea\Desktop\Sistema C\Sistema_C_04-06-2025\Sistema-C-master\Sistema Financeiro\bin\Debug\LiveCharts.WinForms.xml
+C:\Users\kauea\Desktop\Sistema C\Sistema_C_04-06-2025\Sistema-C-master\Sistema Financeiro\bin\Debug\LiveCharts.Wpf.pdb
+C:\Users\kauea\Desktop\Sistema C\Sistema_C_04-06-2025\Sistema-C-master\Sistema Financeiro\bin\Debug\LiveCharts.Wpf.xml
+C:\Users\kauea\Desktop\Sistema C\Sistema_C_04-06-2025\Sistema-C-master\Sistema Financeiro\obj\Debug\Sistema_Financeiro.CadastrosForm.resources
+C:\Users\kauea\Desktop\Sistema C\Sistema_C_04-06-2025\Sistema-C-master\Sistema Financeiro\obj\Debug\Sistema_Financeiro.ConfiguracoesForm.resources
+C:\Users\kauea\Desktop\Sistema C\Sistema_C_04-06-2025\Sistema-C-master\Sistema Financeiro\obj\Debug\Sistema_Financeiro.DashboardForm.resources
+C:\Users\kauea\Desktop\Sistema C\Sistema_C_04-06-2025\Sistema-C-master\Sistema Financeiro\obj\Debug\Sistema_Financeiro.FinanceiroForm.resources
+C:\Users\kauea\Desktop\Sistema C\Sistema_C_04-06-2025\Sistema-C-master\Sistema Financeiro\obj\Debug\Sistema_Financeiro.SistemaFinanceiro.resources
+C:\Users\kauea\Desktop\Sistema C\Sistema_C_04-06-2025\Sistema-C-master\Sistema Financeiro\obj\Debug\Sistema_Financeiro.Forms.MenuForm.resources
+C:\Users\kauea\Desktop\Sistema C\Sistema_C_04-06-2025\Sistema-C-master\Sistema Financeiro\obj\Debug\Sistema_Financeiro.Properties.Resources.resources
+C:\Users\kauea\Desktop\Sistema C\Sistema_C_04-06-2025\Sistema-C-master\Sistema Financeiro\obj\Debug\Gestão Empresa.csproj.GenerateResource.cache
+C:\Users\kauea\Desktop\Sistema C\Sistema_C_04-06-2025\Sistema-C-master\Sistema Financeiro\obj\Debug\Gestão Empresa.csproj.CoreCompileInputs.cache
+C:\Users\kauea\Desktop\Sistema C\Sistema_C_04-06-2025\Sistema-C-master\Sistema Financeiro\obj\Debug\Gest_o E.E70B196F.Up2Date
+C:\Users\luisg\Downloads\Sistema_C_04-06-2025\Sistema-C-master\Sistema Financeiro\bin\Debug\Sistema Financeiro.exe.config
+C:\Users\luisg\Downloads\Sistema_C_04-06-2025\Sistema-C-master\Sistema Financeiro\bin\Debug\Sistema Financeiro.exe
+C:\Users\luisg\Downloads\Sistema_C_04-06-2025\Sistema-C-master\Sistema Financeiro\bin\Debug\Sistema Financeiro.pdb
+C:\Users\luisg\Downloads\Sistema_C_04-06-2025\Sistema-C-master\Sistema Financeiro\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\luisg\Downloads\Sistema_C_04-06-2025\Sistema-C-master\Sistema Financeiro\bin\Debug\LiveCharts.dll
+C:\Users\luisg\Downloads\Sistema_C_04-06-2025\Sistema-C-master\Sistema Financeiro\bin\Debug\LiveCharts.WinForms.dll
+C:\Users\luisg\Downloads\Sistema_C_04-06-2025\Sistema-C-master\Sistema Financeiro\bin\Debug\LiveCharts.Wpf.dll
+C:\Users\luisg\Downloads\Sistema_C_04-06-2025\Sistema-C-master\Sistema Financeiro\bin\Debug\LiveCharts.pdb
+C:\Users\luisg\Downloads\Sistema_C_04-06-2025\Sistema-C-master\Sistema Financeiro\bin\Debug\LiveCharts.xml
+C:\Users\luisg\Downloads\Sistema_C_04-06-2025\Sistema-C-master\Sistema Financeiro\bin\Debug\LiveCharts.WinForms.pdb
+C:\Users\luisg\Downloads\Sistema_C_04-06-2025\Sistema-C-master\Sistema Financeiro\bin\Debug\LiveCharts.WinForms.xml
+C:\Users\luisg\Downloads\Sistema_C_04-06-2025\Sistema-C-master\Sistema Financeiro\bin\Debug\LiveCharts.Wpf.pdb
+C:\Users\luisg\Downloads\Sistema_C_04-06-2025\Sistema-C-master\Sistema Financeiro\bin\Debug\LiveCharts.Wpf.xml
+C:\Users\luisg\Downloads\Sistema_C_04-06-2025\Sistema-C-master\Sistema Financeiro\obj\Debug\Gestão Empresa.csproj.AssemblyReference.cache
+C:\Users\luisg\Downloads\Sistema_C_04-06-2025\Sistema-C-master\Sistema Financeiro\obj\Debug\Sistema Financeiro.exe.config
+C:\Users\luisg\Downloads\Sistema_C_04-06-2025\Sistema-C-master\Sistema Financeiro\obj\Debug\Sistema_Financeiro.CadastrosForm.resources
+C:\Users\luisg\Downloads\Sistema_C_04-06-2025\Sistema-C-master\Sistema Financeiro\obj\Debug\Sistema_Financeiro.ConfiguracoesForm.resources
+C:\Users\luisg\Downloads\Sistema_C_04-06-2025\Sistema-C-master\Sistema Financeiro\obj\Debug\Sistema_Financeiro.DashboardForm.resources
+C:\Users\luisg\Downloads\Sistema_C_04-06-2025\Sistema-C-master\Sistema Financeiro\obj\Debug\Sistema_Financeiro.FinanceiroForm.resources
+C:\Users\luisg\Downloads\Sistema_C_04-06-2025\Sistema-C-master\Sistema Financeiro\obj\Debug\Sistema_Financeiro.SistemaFinanceiro.resources
+C:\Users\luisg\Downloads\Sistema_C_04-06-2025\Sistema-C-master\Sistema Financeiro\obj\Debug\Sistema_Financeiro.Forms.MenuForm.resources
+C:\Users\luisg\Downloads\Sistema_C_04-06-2025\Sistema-C-master\Sistema Financeiro\obj\Debug\Sistema_Financeiro.Properties.Resources.resources
+C:\Users\luisg\Downloads\Sistema_C_04-06-2025\Sistema-C-master\Sistema Financeiro\obj\Debug\Gestão Empresa.csproj.GenerateResource.cache
+C:\Users\luisg\Downloads\Sistema_C_04-06-2025\Sistema-C-master\Sistema Financeiro\obj\Debug\Gestão Empresa.csproj.CoreCompileInputs.cache
+C:\Users\luisg\Downloads\Sistema_C_04-06-2025\Sistema-C-master\Sistema Financeiro\obj\Debug\Gest_o E.E70B196F.Up2Date
+C:\Users\luisg\Downloads\Sistema_C_04-06-2025\Sistema-C-master\Sistema Financeiro\obj\Debug\Sistema Financeiro.exe
+C:\Users\luisg\Downloads\Sistema_C_04-06-2025\Sistema-C-master\Sistema Financeiro\obj\Debug\Sistema Financeiro.pdb
+C:\Users\luisg\Downloads\Sistema_C_04-06-2025\Sistema-C-master\Sistema Financeiro\obj\Debug\Sistema_Financeiro.Forms.LoginForm.resources
+C:\Users\luisg\source\repos\Sistema_C_04-06-2025\Sistema-C-master\Sistema Financeiro\bin\Debug\Sistema Financeiro.exe.config
+C:\Users\luisg\source\repos\Sistema_C_04-06-2025\Sistema-C-master\Sistema Financeiro\bin\Debug\Sistema Financeiro.exe
+C:\Users\luisg\source\repos\Sistema_C_04-06-2025\Sistema-C-master\Sistema Financeiro\bin\Debug\Sistema Financeiro.pdb
+C:\Users\luisg\source\repos\Sistema_C_04-06-2025\Sistema-C-master\Sistema Financeiro\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\luisg\source\repos\Sistema_C_04-06-2025\Sistema-C-master\Sistema Financeiro\bin\Debug\LiveCharts.dll
+C:\Users\luisg\source\repos\Sistema_C_04-06-2025\Sistema-C-master\Sistema Financeiro\bin\Debug\LiveCharts.WinForms.dll
+C:\Users\luisg\source\repos\Sistema_C_04-06-2025\Sistema-C-master\Sistema Financeiro\bin\Debug\LiveCharts.Wpf.dll
+C:\Users\luisg\source\repos\Sistema_C_04-06-2025\Sistema-C-master\Sistema Financeiro\bin\Debug\LiveCharts.pdb
+C:\Users\luisg\source\repos\Sistema_C_04-06-2025\Sistema-C-master\Sistema Financeiro\bin\Debug\LiveCharts.xml
+C:\Users\luisg\source\repos\Sistema_C_04-06-2025\Sistema-C-master\Sistema Financeiro\bin\Debug\LiveCharts.WinForms.pdb
+C:\Users\luisg\source\repos\Sistema_C_04-06-2025\Sistema-C-master\Sistema Financeiro\bin\Debug\LiveCharts.WinForms.xml
+C:\Users\luisg\source\repos\Sistema_C_04-06-2025\Sistema-C-master\Sistema Financeiro\bin\Debug\LiveCharts.Wpf.pdb
+C:\Users\luisg\source\repos\Sistema_C_04-06-2025\Sistema-C-master\Sistema Financeiro\bin\Debug\LiveCharts.Wpf.xml
+C:\Users\luisg\source\repos\Sistema_C_04-06-2025\Sistema-C-master\Sistema Financeiro\obj\Debug\Gestão Empresa.csproj.AssemblyReference.cache
+C:\Users\luisg\source\repos\Sistema_C_04-06-2025\Sistema-C-master\Sistema Financeiro\obj\Debug\Sistema Financeiro.exe.config
+C:\Users\luisg\source\repos\Sistema_C_04-06-2025\Sistema-C-master\Sistema Financeiro\obj\Debug\Sistema_Financeiro.CadastrosForm.resources
+C:\Users\luisg\source\repos\Sistema_C_04-06-2025\Sistema-C-master\Sistema Financeiro\obj\Debug\Sistema_Financeiro.ConfiguracoesForm.resources
+C:\Users\luisg\source\repos\Sistema_C_04-06-2025\Sistema-C-master\Sistema Financeiro\obj\Debug\Sistema_Financeiro.DashboardForm.resources
+C:\Users\luisg\source\repos\Sistema_C_04-06-2025\Sistema-C-master\Sistema Financeiro\obj\Debug\Sistema_Financeiro.FinanceiroForm.resources
+C:\Users\luisg\source\repos\Sistema_C_04-06-2025\Sistema-C-master\Sistema Financeiro\obj\Debug\Sistema_Financeiro.SistemaFinanceiro.resources
+C:\Users\luisg\source\repos\Sistema_C_04-06-2025\Sistema-C-master\Sistema Financeiro\obj\Debug\Sistema_Financeiro.Forms.LoginForm.resources
+C:\Users\luisg\source\repos\Sistema_C_04-06-2025\Sistema-C-master\Sistema Financeiro\obj\Debug\Sistema_Financeiro.Forms.MenuForm.resources
+C:\Users\luisg\source\repos\Sistema_C_04-06-2025\Sistema-C-master\Sistema Financeiro\obj\Debug\Sistema_Financeiro.Properties.Resources.resources
+C:\Users\luisg\source\repos\Sistema_C_04-06-2025\Sistema-C-master\Sistema Financeiro\obj\Debug\Gestão Empresa.csproj.GenerateResource.cache
+C:\Users\luisg\source\repos\Sistema_C_04-06-2025\Sistema-C-master\Sistema Financeiro\obj\Debug\Gestão Empresa.csproj.CoreCompileInputs.cache
+C:\Users\luisg\source\repos\Sistema_C_04-06-2025\Sistema-C-master\Sistema Financeiro\obj\Debug\Gest_o E.E70B196F.Up2Date
+C:\Users\luisg\source\repos\Sistema_C_04-06-2025\Sistema-C-master\Sistema Financeiro\obj\Debug\Sistema Financeiro.exe
+C:\Users\luisg\source\repos\Sistema_C_04-06-2025\Sistema-C-master\Sistema Financeiro\obj\Debug\Sistema Financeiro.pdb
+C:\Users\luisg\source\repos\Sistema_C_04-06-2025\Sistema-C-master\Sistema Financeiro\obj\Debug\Sistema_Financeiro.Forms.CadastrarForm.resources
+C:\Users\weder\source\repos\Sistema_C_08-06-2025\Sistema_C_08-06-2025\Sistema-C-master\Sistema Financeiro\obj\Debug\Gestão Empresa.csproj.AssemblyReference.cache
+C:\Users\weder\source\repos\Sistema_C_08-06-2025\Sistema_C_08-06-2025\Sistema-C-master\Sistema Financeiro\obj\Debug\Sistema Financeiro.exe
+C:\Users\weder\source\repos\Sistema_C_08-06-2025\Sistema_C_08-06-2025\Sistema-C-master\Sistema Financeiro\obj\Debug\Sistema Financeiro.pdb
+C:\Users\weder\source\repos\Sistema_C_08-06-2025\Sistema_C_08-06-2025\Sistema-C-master\Sistema Financeiro\bin\Debug\Sistema Financeiro.exe.config
+C:\Users\weder\source\repos\Sistema_C_08-06-2025\Sistema_C_08-06-2025\Sistema-C-master\Sistema Financeiro\bin\Debug\Sistema Financeiro.exe
+C:\Users\weder\source\repos\Sistema_C_08-06-2025\Sistema_C_08-06-2025\Sistema-C-master\Sistema Financeiro\bin\Debug\Sistema Financeiro.pdb
+C:\Users\weder\source\repos\Sistema_C_08-06-2025\Sistema_C_08-06-2025\Sistema-C-master\Sistema Financeiro\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\weder\source\repos\Sistema_C_08-06-2025\Sistema_C_08-06-2025\Sistema-C-master\Sistema Financeiro\bin\Debug\LiveCharts.dll
+C:\Users\weder\source\repos\Sistema_C_08-06-2025\Sistema_C_08-06-2025\Sistema-C-master\Sistema Financeiro\bin\Debug\LiveCharts.WinForms.dll
+C:\Users\weder\source\repos\Sistema_C_08-06-2025\Sistema_C_08-06-2025\Sistema-C-master\Sistema Financeiro\bin\Debug\LiveCharts.Wpf.dll
+C:\Users\weder\source\repos\Sistema_C_08-06-2025\Sistema_C_08-06-2025\Sistema-C-master\Sistema Financeiro\bin\Debug\LiveCharts.pdb
+C:\Users\weder\source\repos\Sistema_C_08-06-2025\Sistema_C_08-06-2025\Sistema-C-master\Sistema Financeiro\bin\Debug\LiveCharts.xml
+C:\Users\weder\source\repos\Sistema_C_08-06-2025\Sistema_C_08-06-2025\Sistema-C-master\Sistema Financeiro\bin\Debug\LiveCharts.WinForms.pdb
+C:\Users\weder\source\repos\Sistema_C_08-06-2025\Sistema_C_08-06-2025\Sistema-C-master\Sistema Financeiro\bin\Debug\LiveCharts.WinForms.xml
+C:\Users\weder\source\repos\Sistema_C_08-06-2025\Sistema_C_08-06-2025\Sistema-C-master\Sistema Financeiro\bin\Debug\LiveCharts.Wpf.pdb
+C:\Users\weder\source\repos\Sistema_C_08-06-2025\Sistema_C_08-06-2025\Sistema-C-master\Sistema Financeiro\bin\Debug\LiveCharts.Wpf.xml
+C:\Users\weder\source\repos\Sistema_C_08-06-2025\Sistema_C_08-06-2025\Sistema-C-master\Sistema Financeiro\obj\Debug\Sistema_Financeiro.Forms.LoginForm.resources
+C:\Users\weder\source\repos\Sistema_C_08-06-2025\Sistema_C_08-06-2025\Sistema-C-master\Sistema Financeiro\obj\Debug\Sistema_Financeiro.CadastrosForm.resources
+C:\Users\weder\source\repos\Sistema_C_08-06-2025\Sistema_C_08-06-2025\Sistema-C-master\Sistema Financeiro\obj\Debug\Sistema_Financeiro.ConfiguracoesForm.resources
+C:\Users\weder\source\repos\Sistema_C_08-06-2025\Sistema_C_08-06-2025\Sistema-C-master\Sistema Financeiro\obj\Debug\Sistema_Financeiro.DashboardForm.resources
+C:\Users\weder\source\repos\Sistema_C_08-06-2025\Sistema_C_08-06-2025\Sistema-C-master\Sistema Financeiro\obj\Debug\Sistema_Financeiro.FinanceiroForm.resources
+C:\Users\weder\source\repos\Sistema_C_08-06-2025\Sistema_C_08-06-2025\Sistema-C-master\Sistema Financeiro\obj\Debug\Sistema_Financeiro.SistemaFinanceiro.resources
+C:\Users\weder\source\repos\Sistema_C_08-06-2025\Sistema_C_08-06-2025\Sistema-C-master\Sistema Financeiro\obj\Debug\Sistema_Financeiro.Forms.CadastrarForm.resources
+C:\Users\weder\source\repos\Sistema_C_08-06-2025\Sistema_C_08-06-2025\Sistema-C-master\Sistema Financeiro\obj\Debug\Sistema_Financeiro.Forms.MenuForm.resources
+C:\Users\weder\source\repos\Sistema_C_08-06-2025\Sistema_C_08-06-2025\Sistema-C-master\Sistema Financeiro\obj\Debug\Sistema_Financeiro.Properties.Resources.resources
+C:\Users\weder\source\repos\Sistema_C_08-06-2025\Sistema_C_08-06-2025\Sistema-C-master\Sistema Financeiro\obj\Debug\Gestão Empresa.csproj.GenerateResource.cache
+C:\Users\weder\source\repos\Sistema_C_08-06-2025\Sistema_C_08-06-2025\Sistema-C-master\Sistema Financeiro\obj\Debug\Gestão Empresa.csproj.CoreCompileInputs.cache
+C:\Users\weder\source\repos\Sistema_C_08-06-2025\Sistema_C_08-06-2025\Sistema-C-master\Sistema Financeiro\obj\Debug\Gest_o E.E70B196F.Up2Date
+C:\Users\luisg\Downloads\Sistema_C_08-06-2025\Sistema_C_08-06-2025\Sistema-C-master\Sistema Financeiro\bin\Debug\Sistema Financeiro.exe.config
+C:\Users\luisg\Downloads\Sistema_C_08-06-2025\Sistema_C_08-06-2025\Sistema-C-master\Sistema Financeiro\bin\Debug\Sistema Financeiro.exe
+C:\Users\luisg\Downloads\Sistema_C_08-06-2025\Sistema_C_08-06-2025\Sistema-C-master\Sistema Financeiro\bin\Debug\Sistema Financeiro.pdb
+C:\Users\luisg\Downloads\Sistema_C_08-06-2025\Sistema_C_08-06-2025\Sistema-C-master\Sistema Financeiro\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\luisg\Downloads\Sistema_C_08-06-2025\Sistema_C_08-06-2025\Sistema-C-master\Sistema Financeiro\bin\Debug\LiveCharts.dll
+C:\Users\luisg\Downloads\Sistema_C_08-06-2025\Sistema_C_08-06-2025\Sistema-C-master\Sistema Financeiro\bin\Debug\LiveCharts.WinForms.dll
+C:\Users\luisg\Downloads\Sistema_C_08-06-2025\Sistema_C_08-06-2025\Sistema-C-master\Sistema Financeiro\bin\Debug\LiveCharts.Wpf.dll
+C:\Users\luisg\Downloads\Sistema_C_08-06-2025\Sistema_C_08-06-2025\Sistema-C-master\Sistema Financeiro\bin\Debug\LiveCharts.pdb
+C:\Users\luisg\Downloads\Sistema_C_08-06-2025\Sistema_C_08-06-2025\Sistema-C-master\Sistema Financeiro\bin\Debug\LiveCharts.xml
+C:\Users\luisg\Downloads\Sistema_C_08-06-2025\Sistema_C_08-06-2025\Sistema-C-master\Sistema Financeiro\bin\Debug\LiveCharts.WinForms.pdb
+C:\Users\luisg\Downloads\Sistema_C_08-06-2025\Sistema_C_08-06-2025\Sistema-C-master\Sistema Financeiro\bin\Debug\LiveCharts.WinForms.xml
+C:\Users\luisg\Downloads\Sistema_C_08-06-2025\Sistema_C_08-06-2025\Sistema-C-master\Sistema Financeiro\bin\Debug\LiveCharts.Wpf.pdb
+C:\Users\luisg\Downloads\Sistema_C_08-06-2025\Sistema_C_08-06-2025\Sistema-C-master\Sistema Financeiro\bin\Debug\LiveCharts.Wpf.xml
+C:\Users\luisg\Downloads\Sistema_C_08-06-2025\Sistema_C_08-06-2025\Sistema-C-master\Sistema Financeiro\obj\Debug\Gestão Empresa.csproj.AssemblyReference.cache
+C:\Users\luisg\Downloads\Sistema_C_08-06-2025\Sistema_C_08-06-2025\Sistema-C-master\Sistema Financeiro\obj\Debug\Sistema Financeiro.exe.config
+C:\Users\luisg\Downloads\Sistema_C_08-06-2025\Sistema_C_08-06-2025\Sistema-C-master\Sistema Financeiro\obj\Debug\Sistema_Financeiro.Forms.LoginForm.resources
+C:\Users\luisg\Downloads\Sistema_C_08-06-2025\Sistema_C_08-06-2025\Sistema-C-master\Sistema Financeiro\obj\Debug\Sistema_Financeiro.CadastrosForm.resources
+C:\Users\luisg\Downloads\Sistema_C_08-06-2025\Sistema_C_08-06-2025\Sistema-C-master\Sistema Financeiro\obj\Debug\Sistema_Financeiro.ConfiguracoesForm.resources
+C:\Users\luisg\Downloads\Sistema_C_08-06-2025\Sistema_C_08-06-2025\Sistema-C-master\Sistema Financeiro\obj\Debug\Sistema_Financeiro.DashboardForm.resources
+C:\Users\luisg\Downloads\Sistema_C_08-06-2025\Sistema_C_08-06-2025\Sistema-C-master\Sistema Financeiro\obj\Debug\Sistema_Financeiro.FinanceiroForm.resources
+C:\Users\luisg\Downloads\Sistema_C_08-06-2025\Sistema_C_08-06-2025\Sistema-C-master\Sistema Financeiro\obj\Debug\Sistema_Financeiro.SistemaFinanceiro.resources
+C:\Users\luisg\Downloads\Sistema_C_08-06-2025\Sistema_C_08-06-2025\Sistema-C-master\Sistema Financeiro\obj\Debug\Sistema_Financeiro.Forms.CadastrarForm.resources
+C:\Users\luisg\Downloads\Sistema_C_08-06-2025\Sistema_C_08-06-2025\Sistema-C-master\Sistema Financeiro\obj\Debug\Sistema_Financeiro.Forms.MenuForm.resources
+C:\Users\luisg\Downloads\Sistema_C_08-06-2025\Sistema_C_08-06-2025\Sistema-C-master\Sistema Financeiro\obj\Debug\Sistema_Financeiro.Properties.Resources.resources
+C:\Users\luisg\Downloads\Sistema_C_08-06-2025\Sistema_C_08-06-2025\Sistema-C-master\Sistema Financeiro\obj\Debug\Gestão Empresa.csproj.GenerateResource.cache
+C:\Users\luisg\Downloads\Sistema_C_08-06-2025\Sistema_C_08-06-2025\Sistema-C-master\Sistema Financeiro\obj\Debug\Gestão Empresa.csproj.CoreCompileInputs.cache
+C:\Users\luisg\Downloads\Sistema_C_08-06-2025\Sistema_C_08-06-2025\Sistema-C-master\Sistema Financeiro\obj\Debug\Gest_o E.E70B196F.Up2Date
+C:\Users\luisg\Downloads\Sistema_C_08-06-2025\Sistema_C_08-06-2025\Sistema-C-master\Sistema Financeiro\obj\Debug\Sistema Financeiro.exe
+C:\Users\luisg\Downloads\Sistema_C_08-06-2025\Sistema_C_08-06-2025\Sistema-C-master\Sistema Financeiro\obj\Debug\Sistema Financeiro.pdb
+C:\Users\luisg\source\repos\Finansec\Sistema-C-master\Sistema Financeiro\bin\Debug\Sistema Financeiro.exe.config
+C:\Users\luisg\source\repos\Finansec\Sistema-C-master\Sistema Financeiro\bin\Debug\Sistema Financeiro.exe
+C:\Users\luisg\source\repos\Finansec\Sistema-C-master\Sistema Financeiro\bin\Debug\Sistema Financeiro.pdb
+C:\Users\luisg\source\repos\Finansec\Sistema-C-master\Sistema Financeiro\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\luisg\source\repos\Finansec\Sistema-C-master\Sistema Financeiro\bin\Debug\LiveCharts.dll
+C:\Users\luisg\source\repos\Finansec\Sistema-C-master\Sistema Financeiro\bin\Debug\LiveCharts.WinForms.dll
+C:\Users\luisg\source\repos\Finansec\Sistema-C-master\Sistema Financeiro\bin\Debug\LiveCharts.Wpf.dll
+C:\Users\luisg\source\repos\Finansec\Sistema-C-master\Sistema Financeiro\bin\Debug\LiveCharts.pdb
+C:\Users\luisg\source\repos\Finansec\Sistema-C-master\Sistema Financeiro\bin\Debug\LiveCharts.xml
+C:\Users\luisg\source\repos\Finansec\Sistema-C-master\Sistema Financeiro\bin\Debug\LiveCharts.WinForms.pdb
+C:\Users\luisg\source\repos\Finansec\Sistema-C-master\Sistema Financeiro\bin\Debug\LiveCharts.WinForms.xml
+C:\Users\luisg\source\repos\Finansec\Sistema-C-master\Sistema Financeiro\bin\Debug\LiveCharts.Wpf.pdb
+C:\Users\luisg\source\repos\Finansec\Sistema-C-master\Sistema Financeiro\bin\Debug\LiveCharts.Wpf.xml
+C:\Users\luisg\source\repos\Finansec\Sistema-C-master\Sistema Financeiro\obj\Debug\Gestão Empresa.csproj.AssemblyReference.cache
+C:\Users\luisg\source\repos\Finansec\Sistema-C-master\Sistema Financeiro\obj\Debug\Sistema Financeiro.exe.config
+C:\Users\luisg\source\repos\Finansec\Sistema-C-master\Sistema Financeiro\obj\Debug\Sistema_Financeiro.Forms.LoginForm.resources
+C:\Users\luisg\source\repos\Finansec\Sistema-C-master\Sistema Financeiro\obj\Debug\Sistema_Financeiro.CadastrosForm.resources
+C:\Users\luisg\source\repos\Finansec\Sistema-C-master\Sistema Financeiro\obj\Debug\Sistema_Financeiro.ConfiguracoesForm.resources
+C:\Users\luisg\source\repos\Finansec\Sistema-C-master\Sistema Financeiro\obj\Debug\Sistema_Financeiro.DashboardForm.resources
+C:\Users\luisg\source\repos\Finansec\Sistema-C-master\Sistema Financeiro\obj\Debug\Sistema_Financeiro.FinanceiroForm.resources
+C:\Users\luisg\source\repos\Finansec\Sistema-C-master\Sistema Financeiro\obj\Debug\Sistema_Financeiro.SistemaFinanceiro.resources
+C:\Users\luisg\source\repos\Finansec\Sistema-C-master\Sistema Financeiro\obj\Debug\Sistema_Financeiro.Forms.CadastrarForm.resources
+C:\Users\luisg\source\repos\Finansec\Sistema-C-master\Sistema Financeiro\obj\Debug\Sistema_Financeiro.Forms.MenuForm.resources
+C:\Users\luisg\source\repos\Finansec\Sistema-C-master\Sistema Financeiro\obj\Debug\Sistema_Financeiro.Properties.Resources.resources
+C:\Users\luisg\source\repos\Finansec\Sistema-C-master\Sistema Financeiro\obj\Debug\Gestão Empresa.csproj.GenerateResource.cache
+C:\Users\luisg\source\repos\Finansec\Sistema-C-master\Sistema Financeiro\obj\Debug\Gestão Empresa.csproj.CoreCompileInputs.cache
+C:\Users\luisg\source\repos\Finansec\Sistema-C-master\Sistema Financeiro\obj\Debug\Gest_o E.E70B196F.Up2Date
+C:\Users\luisg\source\repos\Finansec\Sistema-C-master\Sistema Financeiro\obj\Debug\Sistema Financeiro.exe
+C:\Users\luisg\source\repos\Finansec\Sistema-C-master\Sistema Financeiro\obj\Debug\Sistema Financeiro.pdb
+C:\Users\luisg\source\repos\Finansec\Sistema-C-master\Sistema Financeiro\obj\Debug\Sistema_Financeiro.Forms.AccountForm.resources
+C:\Users\weder\source\repos\Finansec\Finansec\Sistema-C-master\Sistema Financeiro\obj\Debug\Gestão Empresa.csproj.AssemblyReference.cache
+C:\Users\weder\source\repos\Finansec\Finansec\Sistema-C-master\Sistema Financeiro\obj\Debug\Sistema Financeiro.exe
+C:\Users\weder\source\repos\Finansec\Finansec\Sistema-C-master\Sistema Financeiro\obj\Debug\Sistema Financeiro.pdb
+C:\Users\weder\source\repos\Finansec\Finansec\Sistema-C-master\Sistema Financeiro\bin\Debug\Sistema Financeiro.exe.config
+C:\Users\weder\source\repos\Finansec\Finansec\Sistema-C-master\Sistema Financeiro\bin\Debug\Sistema Financeiro.exe
+C:\Users\weder\source\repos\Finansec\Finansec\Sistema-C-master\Sistema Financeiro\bin\Debug\Sistema Financeiro.pdb
+C:\Users\weder\source\repos\Finansec\Finansec\Sistema-C-master\Sistema Financeiro\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\weder\source\repos\Finansec\Finansec\Sistema-C-master\Sistema Financeiro\bin\Debug\LiveCharts.dll
+C:\Users\weder\source\repos\Finansec\Finansec\Sistema-C-master\Sistema Financeiro\bin\Debug\LiveCharts.WinForms.dll
+C:\Users\weder\source\repos\Finansec\Finansec\Sistema-C-master\Sistema Financeiro\bin\Debug\LiveCharts.Wpf.dll
+C:\Users\weder\source\repos\Finansec\Finansec\Sistema-C-master\Sistema Financeiro\bin\Debug\LiveCharts.pdb
+C:\Users\weder\source\repos\Finansec\Finansec\Sistema-C-master\Sistema Financeiro\bin\Debug\LiveCharts.xml
+C:\Users\weder\source\repos\Finansec\Finansec\Sistema-C-master\Sistema Financeiro\bin\Debug\LiveCharts.WinForms.pdb
+C:\Users\weder\source\repos\Finansec\Finansec\Sistema-C-master\Sistema Financeiro\bin\Debug\LiveCharts.WinForms.xml
+C:\Users\weder\source\repos\Finansec\Finansec\Sistema-C-master\Sistema Financeiro\bin\Debug\LiveCharts.Wpf.pdb
+C:\Users\weder\source\repos\Finansec\Finansec\Sistema-C-master\Sistema Financeiro\bin\Debug\LiveCharts.Wpf.xml
+C:\Users\weder\source\repos\Finansec\Finansec\Sistema-C-master\Sistema Financeiro\obj\Debug\Sistema_Financeiro.Forms.AccountForm.resources
+C:\Users\weder\source\repos\Finansec\Finansec\Sistema-C-master\Sistema Financeiro\obj\Debug\Sistema_Financeiro.Forms.LoginForm.resources
+C:\Users\weder\source\repos\Finansec\Finansec\Sistema-C-master\Sistema Financeiro\obj\Debug\Sistema_Financeiro.CadastrosForm.resources
+C:\Users\weder\source\repos\Finansec\Finansec\Sistema-C-master\Sistema Financeiro\obj\Debug\Sistema_Financeiro.ConfiguracoesForm.resources
+C:\Users\weder\source\repos\Finansec\Finansec\Sistema-C-master\Sistema Financeiro\obj\Debug\Sistema_Financeiro.DashboardForm.resources
+C:\Users\weder\source\repos\Finansec\Finansec\Sistema-C-master\Sistema Financeiro\obj\Debug\Sistema_Financeiro.FinanceiroForm.resources
+C:\Users\weder\source\repos\Finansec\Finansec\Sistema-C-master\Sistema Financeiro\obj\Debug\Sistema_Financeiro.SistemaFinanceiro.resources
+C:\Users\weder\source\repos\Finansec\Finansec\Sistema-C-master\Sistema Financeiro\obj\Debug\Sistema_Financeiro.Forms.CadastrarForm.resources
+C:\Users\weder\source\repos\Finansec\Finansec\Sistema-C-master\Sistema Financeiro\obj\Debug\Sistema_Financeiro.Forms.MenuForm.resources
+C:\Users\weder\source\repos\Finansec\Finansec\Sistema-C-master\Sistema Financeiro\obj\Debug\Sistema_Financeiro.Properties.Resources.resources
+C:\Users\weder\source\repos\Finansec\Finansec\Sistema-C-master\Sistema Financeiro\obj\Debug\Gestão Empresa.csproj.GenerateResource.cache
+C:\Users\weder\source\repos\Finansec\Finansec\Sistema-C-master\Sistema Financeiro\obj\Debug\Gestão Empresa.csproj.CoreCompileInputs.cache
+C:\Users\weder\source\repos\Finansec\Finansec\Sistema-C-master\Sistema Financeiro\obj\Debug\Gest_o E.E70B196F.Up2Date
+C:\Users\kauea\Desktop\Finansec\Finansec\Sistema-C-master\Sistema Financeiro\obj\Debug\Gestão Empresa.csproj.AssemblyReference.cache
+C:\Users\kauea\Desktop\Finansec\Finansec\Sistema-C-master\Sistema Financeiro\obj\Debug\Sistema Financeiro.exe.config
+C:\Users\kauea\Desktop\Finansec\Finansec\Sistema-C-master\Sistema Financeiro\obj\Debug\Sistema Financeiro.exe
+C:\Users\kauea\Desktop\Finansec\Finansec\Sistema-C-master\Sistema Financeiro\obj\Debug\Sistema Financeiro.pdb
+C:\Users\kauea\Desktop\Finansec\Finansec\Sistema-C-master\Sistema Financeiro\bin\Debug\Sistema Financeiro.exe.config
+C:\Users\kauea\Desktop\Finansec\Finansec\Sistema-C-master\Sistema Financeiro\bin\Debug\Sistema Financeiro.exe
+C:\Users\kauea\Desktop\Finansec\Finansec\Sistema-C-master\Sistema Financeiro\bin\Debug\Sistema Financeiro.pdb
+C:\Users\kauea\Desktop\Finansec\Finansec\Sistema-C-master\Sistema Financeiro\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\kauea\Desktop\Finansec\Finansec\Sistema-C-master\Sistema Financeiro\bin\Debug\LiveCharts.dll
+C:\Users\kauea\Desktop\Finansec\Finansec\Sistema-C-master\Sistema Financeiro\bin\Debug\LiveCharts.WinForms.dll
+C:\Users\kauea\Desktop\Finansec\Finansec\Sistema-C-master\Sistema Financeiro\bin\Debug\LiveCharts.Wpf.dll
+C:\Users\kauea\Desktop\Finansec\Finansec\Sistema-C-master\Sistema Financeiro\bin\Debug\LiveCharts.pdb
+C:\Users\kauea\Desktop\Finansec\Finansec\Sistema-C-master\Sistema Financeiro\bin\Debug\LiveCharts.xml
+C:\Users\kauea\Desktop\Finansec\Finansec\Sistema-C-master\Sistema Financeiro\bin\Debug\LiveCharts.WinForms.pdb
+C:\Users\kauea\Desktop\Finansec\Finansec\Sistema-C-master\Sistema Financeiro\bin\Debug\LiveCharts.WinForms.xml
+C:\Users\kauea\Desktop\Finansec\Finansec\Sistema-C-master\Sistema Financeiro\bin\Debug\LiveCharts.Wpf.pdb
+C:\Users\kauea\Desktop\Finansec\Finansec\Sistema-C-master\Sistema Financeiro\bin\Debug\LiveCharts.Wpf.xml
+C:\Users\kauea\Desktop\Finansec\Finansec\Sistema-C-master\Sistema Financeiro\obj\Debug\Sistema_Financeiro.Forms.AccountForm.resources
+C:\Users\kauea\Desktop\Finansec\Finansec\Sistema-C-master\Sistema Financeiro\obj\Debug\Sistema_Financeiro.Forms.LoginForm.resources
+C:\Users\kauea\Desktop\Finansec\Finansec\Sistema-C-master\Sistema Financeiro\obj\Debug\Sistema_Financeiro.CadastrosForm.resources
+C:\Users\kauea\Desktop\Finansec\Finansec\Sistema-C-master\Sistema Financeiro\obj\Debug\Sistema_Financeiro.ConfiguracoesForm.resources
+C:\Users\kauea\Desktop\Finansec\Finansec\Sistema-C-master\Sistema Financeiro\obj\Debug\Sistema_Financeiro.DashboardForm.resources
+C:\Users\kauea\Desktop\Finansec\Finansec\Sistema-C-master\Sistema Financeiro\obj\Debug\Sistema_Financeiro.FinanceiroForm.resources
+C:\Users\kauea\Desktop\Finansec\Finansec\Sistema-C-master\Sistema Financeiro\obj\Debug\Sistema_Financeiro.SistemaFinanceiro.resources
+C:\Users\kauea\Desktop\Finansec\Finansec\Sistema-C-master\Sistema Financeiro\obj\Debug\Sistema_Financeiro.Forms.CadastrarForm.resources
+C:\Users\kauea\Desktop\Finansec\Finansec\Sistema-C-master\Sistema Financeiro\obj\Debug\Sistema_Financeiro.Forms.MenuForm.resources
+C:\Users\kauea\Desktop\Finansec\Finansec\Sistema-C-master\Sistema Financeiro\obj\Debug\Sistema_Financeiro.Properties.Resources.resources
+C:\Users\kauea\Desktop\Finansec\Finansec\Sistema-C-master\Sistema Financeiro\obj\Debug\Gestão Empresa.csproj.GenerateResource.cache
+C:\Users\kauea\Desktop\Finansec\Finansec\Sistema-C-master\Sistema Financeiro\obj\Debug\Gestão Empresa.csproj.CoreCompileInputs.cache
+C:\Users\kauea\Desktop\Finansec\Finansec\Sistema-C-master\Sistema Financeiro\obj\Debug\Gest_o E.E70B196F.Up2Date
+C:\Users\kauea\Desktop\Finansec\Finansec\Sistema-C-master\Sistema Financeiro\obj\Debug\Sistema_Financeiro.FormEdicao.resources
+C:\Users\Gustavo-PC\source\repos\Finansec\Finansec\Sistema-C-master\Sistema Financeiro\bin\Debug\Sistema Financeiro.exe.config
+C:\Users\Gustavo-PC\source\repos\Finansec\Finansec\Sistema-C-master\Sistema Financeiro\bin\Debug\Sistema Financeiro.exe
+C:\Users\Gustavo-PC\source\repos\Finansec\Finansec\Sistema-C-master\Sistema Financeiro\bin\Debug\Sistema Financeiro.pdb
+C:\Users\Gustavo-PC\source\repos\Finansec\Finansec\Sistema-C-master\Sistema Financeiro\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\Gustavo-PC\source\repos\Finansec\Finansec\Sistema-C-master\Sistema Financeiro\bin\Debug\LiveCharts.dll
+C:\Users\Gustavo-PC\source\repos\Finansec\Finansec\Sistema-C-master\Sistema Financeiro\bin\Debug\LiveCharts.WinForms.dll
+C:\Users\Gustavo-PC\source\repos\Finansec\Finansec\Sistema-C-master\Sistema Financeiro\bin\Debug\LiveCharts.Wpf.dll
+C:\Users\Gustavo-PC\source\repos\Finansec\Finansec\Sistema-C-master\Sistema Financeiro\bin\Debug\LiveCharts.pdb
+C:\Users\Gustavo-PC\source\repos\Finansec\Finansec\Sistema-C-master\Sistema Financeiro\bin\Debug\LiveCharts.xml
+C:\Users\Gustavo-PC\source\repos\Finansec\Finansec\Sistema-C-master\Sistema Financeiro\bin\Debug\LiveCharts.WinForms.pdb
+C:\Users\Gustavo-PC\source\repos\Finansec\Finansec\Sistema-C-master\Sistema Financeiro\bin\Debug\LiveCharts.WinForms.xml
+C:\Users\Gustavo-PC\source\repos\Finansec\Finansec\Sistema-C-master\Sistema Financeiro\bin\Debug\LiveCharts.Wpf.pdb
+C:\Users\Gustavo-PC\source\repos\Finansec\Finansec\Sistema-C-master\Sistema Financeiro\bin\Debug\LiveCharts.Wpf.xml
+C:\Users\Gustavo-PC\source\repos\Finansec\Finansec\Sistema-C-master\Sistema Financeiro\obj\Debug\Gestão Empresa.csproj.AssemblyReference.cache
+C:\Users\Gustavo-PC\source\repos\Finansec\Finansec\Sistema-C-master\Sistema Financeiro\obj\Debug\Sistema_Financeiro.Forms.AccountForm.resources
+C:\Users\Gustavo-PC\source\repos\Finansec\Finansec\Sistema-C-master\Sistema Financeiro\obj\Debug\Sistema_Financeiro.FormEdicao.resources
+C:\Users\Gustavo-PC\source\repos\Finansec\Finansec\Sistema-C-master\Sistema Financeiro\obj\Debug\Sistema_Financeiro.Forms.LoginForm.resources
+C:\Users\Gustavo-PC\source\repos\Finansec\Finansec\Sistema-C-master\Sistema Financeiro\obj\Debug\Sistema_Financeiro.CadastrosForm.resources
+C:\Users\Gustavo-PC\source\repos\Finansec\Finansec\Sistema-C-master\Sistema Financeiro\obj\Debug\Sistema_Financeiro.ConfiguracoesForm.resources
+C:\Users\Gustavo-PC\source\repos\Finansec\Finansec\Sistema-C-master\Sistema Financeiro\obj\Debug\Sistema_Financeiro.DashboardForm.resources
+C:\Users\Gustavo-PC\source\repos\Finansec\Finansec\Sistema-C-master\Sistema Financeiro\obj\Debug\Sistema_Financeiro.FinanceiroForm.resources
+C:\Users\Gustavo-PC\source\repos\Finansec\Finansec\Sistema-C-master\Sistema Financeiro\obj\Debug\Sistema_Financeiro.SistemaFinanceiro.resources
+C:\Users\Gustavo-PC\source\repos\Finansec\Finansec\Sistema-C-master\Sistema Financeiro\obj\Debug\Sistema_Financeiro.Forms.CadastrarForm.resources
+C:\Users\Gustavo-PC\source\repos\Finansec\Finansec\Sistema-C-master\Sistema Financeiro\obj\Debug\Sistema_Financeiro.Forms.MenuForm.resources
+C:\Users\Gustavo-PC\source\repos\Finansec\Finansec\Sistema-C-master\Sistema Financeiro\obj\Debug\Sistema_Financeiro.Properties.Resources.resources
+C:\Users\Gustavo-PC\source\repos\Finansec\Finansec\Sistema-C-master\Sistema Financeiro\obj\Debug\Gestão Empresa.csproj.GenerateResource.cache
+C:\Users\Gustavo-PC\source\repos\Finansec\Finansec\Sistema-C-master\Sistema Financeiro\obj\Debug\Gestão Empresa.csproj.CoreCompileInputs.cache
+C:\Users\Gustavo-PC\source\repos\Finansec\Finansec\Sistema-C-master\Sistema Financeiro\obj\Debug\Gest_o E.E70B196F.Up2Date
+C:\Users\Gustavo-PC\source\repos\Finansec\Finansec\Sistema-C-master\Sistema Financeiro\obj\Debug\Sistema Financeiro.exe
+C:\Users\Gustavo-PC\source\repos\Finansec\Finansec\Sistema-C-master\Sistema Financeiro\obj\Debug\Sistema Financeiro.pdb
+C:\Users\weder\source\repos\Finansec\Finansec\Sistema-C-master\Sistema Financeiro\obj\Debug\Sistema_Financeiro.FormEdicao.resources
+C:\Users\weder\source\repos\Finansec2\Finansec\Sistema-C-master\Sistema Financeiro\bin\Debug\Sistema Financeiro.exe.config
+C:\Users\weder\source\repos\Finansec2\Finansec\Sistema-C-master\Sistema Financeiro\bin\Debug\Sistema Financeiro.exe
+C:\Users\weder\source\repos\Finansec2\Finansec\Sistema-C-master\Sistema Financeiro\bin\Debug\Sistema Financeiro.pdb
+C:\Users\weder\source\repos\Finansec2\Finansec\Sistema-C-master\Sistema Financeiro\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\weder\source\repos\Finansec2\Finansec\Sistema-C-master\Sistema Financeiro\bin\Debug\LiveCharts.dll
+C:\Users\weder\source\repos\Finansec2\Finansec\Sistema-C-master\Sistema Financeiro\bin\Debug\LiveCharts.WinForms.dll
+C:\Users\weder\source\repos\Finansec2\Finansec\Sistema-C-master\Sistema Financeiro\bin\Debug\LiveCharts.Wpf.dll
+C:\Users\weder\source\repos\Finansec2\Finansec\Sistema-C-master\Sistema Financeiro\bin\Debug\LiveCharts.pdb
+C:\Users\weder\source\repos\Finansec2\Finansec\Sistema-C-master\Sistema Financeiro\bin\Debug\LiveCharts.xml
+C:\Users\weder\source\repos\Finansec2\Finansec\Sistema-C-master\Sistema Financeiro\bin\Debug\LiveCharts.WinForms.pdb
+C:\Users\weder\source\repos\Finansec2\Finansec\Sistema-C-master\Sistema Financeiro\bin\Debug\LiveCharts.WinForms.xml
+C:\Users\weder\source\repos\Finansec2\Finansec\Sistema-C-master\Sistema Financeiro\bin\Debug\LiveCharts.Wpf.pdb
+C:\Users\weder\source\repos\Finansec2\Finansec\Sistema-C-master\Sistema Financeiro\bin\Debug\LiveCharts.Wpf.xml
+C:\Users\weder\source\repos\Finansec2\Finansec\Sistema-C-master\Sistema Financeiro\obj\Debug\Gestão Empresa.csproj.AssemblyReference.cache
+C:\Users\weder\source\repos\Finansec2\Finansec\Sistema-C-master\Sistema Financeiro\obj\Debug\Sistema_Financeiro.Forms.AccountForm.resources
+C:\Users\weder\source\repos\Finansec2\Finansec\Sistema-C-master\Sistema Financeiro\obj\Debug\Sistema_Financeiro.FormEdicao.resources
+C:\Users\weder\source\repos\Finansec2\Finansec\Sistema-C-master\Sistema Financeiro\obj\Debug\Sistema_Financeiro.Forms.LoginForm.resources
+C:\Users\weder\source\repos\Finansec2\Finansec\Sistema-C-master\Sistema Financeiro\obj\Debug\Sistema_Financeiro.CadastrosForm.resources
+C:\Users\weder\source\repos\Finansec2\Finansec\Sistema-C-master\Sistema Financeiro\obj\Debug\Sistema_Financeiro.ConfiguracoesForm.resources
+C:\Users\weder\source\repos\Finansec2\Finansec\Sistema-C-master\Sistema Financeiro\obj\Debug\Sistema_Financeiro.DashboardForm.resources
+C:\Users\weder\source\repos\Finansec2\Finansec\Sistema-C-master\Sistema Financeiro\obj\Debug\Sistema_Financeiro.FinanceiroForm.resources
+C:\Users\weder\source\repos\Finansec2\Finansec\Sistema-C-master\Sistema Financeiro\obj\Debug\Sistema_Financeiro.SistemaFinanceiro.resources
+C:\Users\weder\source\repos\Finansec2\Finansec\Sistema-C-master\Sistema Financeiro\obj\Debug\Sistema_Financeiro.Forms.CadastrarForm.resources
+C:\Users\weder\source\repos\Finansec2\Finansec\Sistema-C-master\Sistema Financeiro\obj\Debug\Sistema_Financeiro.Forms.MenuForm.resources
+C:\Users\weder\source\repos\Finansec2\Finansec\Sistema-C-master\Sistema Financeiro\obj\Debug\Sistema_Financeiro.Properties.Resources.resources
+C:\Users\weder\source\repos\Finansec2\Finansec\Sistema-C-master\Sistema Financeiro\obj\Debug\Gestão Empresa.csproj.GenerateResource.cache
+C:\Users\weder\source\repos\Finansec2\Finansec\Sistema-C-master\Sistema Financeiro\obj\Debug\Gestão Empresa.csproj.CoreCompileInputs.cache
+C:\Users\weder\source\repos\Finansec2\Finansec\Sistema-C-master\Sistema Financeiro\obj\Debug\Gest_o E.E70B196F.Up2Date
+C:\Users\weder\source\repos\Finansec2\Finansec\Sistema-C-master\Sistema Financeiro\obj\Debug\Sistema Financeiro.exe
+C:\Users\weder\source\repos\Finansec2\Finansec\Sistema-C-master\Sistema Financeiro\obj\Debug\Sistema Financeiro.pdb
+C:\Users\kauea\Desktop\Finansec2\Finansec\Sistema-C-master\Sistema Financeiro\bin\Debug\Sistema Financeiro.exe.config
+C:\Users\kauea\Desktop\Finansec2\Finansec\Sistema-C-master\Sistema Financeiro\bin\Debug\Sistema Financeiro.exe
+C:\Users\kauea\Desktop\Finansec2\Finansec\Sistema-C-master\Sistema Financeiro\bin\Debug\Sistema Financeiro.pdb
+C:\Users\kauea\Desktop\Finansec2\Finansec\Sistema-C-master\Sistema Financeiro\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\kauea\Desktop\Finansec2\Finansec\Sistema-C-master\Sistema Financeiro\bin\Debug\LiveCharts.dll
+C:\Users\kauea\Desktop\Finansec2\Finansec\Sistema-C-master\Sistema Financeiro\bin\Debug\LiveCharts.WinForms.dll
+C:\Users\kauea\Desktop\Finansec2\Finansec\Sistema-C-master\Sistema Financeiro\bin\Debug\LiveCharts.Wpf.dll
+C:\Users\kauea\Desktop\Finansec2\Finansec\Sistema-C-master\Sistema Financeiro\bin\Debug\LiveCharts.pdb
+C:\Users\kauea\Desktop\Finansec2\Finansec\Sistema-C-master\Sistema Financeiro\bin\Debug\LiveCharts.xml
+C:\Users\kauea\Desktop\Finansec2\Finansec\Sistema-C-master\Sistema Financeiro\bin\Debug\LiveCharts.WinForms.pdb
+C:\Users\kauea\Desktop\Finansec2\Finansec\Sistema-C-master\Sistema Financeiro\bin\Debug\LiveCharts.WinForms.xml
+C:\Users\kauea\Desktop\Finansec2\Finansec\Sistema-C-master\Sistema Financeiro\bin\Debug\LiveCharts.Wpf.pdb
+C:\Users\kauea\Desktop\Finansec2\Finansec\Sistema-C-master\Sistema Financeiro\bin\Debug\LiveCharts.Wpf.xml
+C:\Users\kauea\Desktop\Finansec2\Finansec\Sistema-C-master\Sistema Financeiro\obj\Debug\Gestão Empresa.csproj.AssemblyReference.cache
+C:\Users\kauea\Desktop\Finansec2\Finansec\Sistema-C-master\Sistema Financeiro\obj\Debug\Sistema Financeiro.exe.config
+C:\Users\kauea\Desktop\Finansec2\Finansec\Sistema-C-master\Sistema Financeiro\obj\Debug\Sistema_Financeiro.Forms.AccountForm.resources
+C:\Users\kauea\Desktop\Finansec2\Finansec\Sistema-C-master\Sistema Financeiro\obj\Debug\Sistema_Financeiro.FormEdicao.resources
+C:\Users\kauea\Desktop\Finansec2\Finansec\Sistema-C-master\Sistema Financeiro\obj\Debug\Sistema_Financeiro.Forms.LoginForm.resources
+C:\Users\kauea\Desktop\Finansec2\Finansec\Sistema-C-master\Sistema Financeiro\obj\Debug\Sistema_Financeiro.CadastrosForm.resources
+C:\Users\kauea\Desktop\Finansec2\Finansec\Sistema-C-master\Sistema Financeiro\obj\Debug\Sistema_Financeiro.ConfiguracoesForm.resources
+C:\Users\kauea\Desktop\Finansec2\Finansec\Sistema-C-master\Sistema Financeiro\obj\Debug\Sistema_Financeiro.DashboardForm.resources
+C:\Users\kauea\Desktop\Finansec2\Finansec\Sistema-C-master\Sistema Financeiro\obj\Debug\Sistema_Financeiro.FinanceiroForm.resources
+C:\Users\kauea\Desktop\Finansec2\Finansec\Sistema-C-master\Sistema Financeiro\obj\Debug\Sistema_Financeiro.SistemaFinanceiro.resources
+C:\Users\kauea\Desktop\Finansec2\Finansec\Sistema-C-master\Sistema Financeiro\obj\Debug\Sistema_Financeiro.Forms.CadastrarForm.resources
+C:\Users\kauea\Desktop\Finansec2\Finansec\Sistema-C-master\Sistema Financeiro\obj\Debug\Sistema_Financeiro.Forms.MenuForm.resources
+C:\Users\kauea\Desktop\Finansec2\Finansec\Sistema-C-master\Sistema Financeiro\obj\Debug\Sistema_Financeiro.Properties.Resources.resources
+C:\Users\kauea\Desktop\Finansec2\Finansec\Sistema-C-master\Sistema Financeiro\obj\Debug\Gestão Empresa.csproj.GenerateResource.cache
+C:\Users\kauea\Desktop\Finansec2\Finansec\Sistema-C-master\Sistema Financeiro\obj\Debug\Gestão Empresa.csproj.CoreCompileInputs.cache
+C:\Users\kauea\Desktop\Finansec2\Finansec\Sistema-C-master\Sistema Financeiro\obj\Debug\Gest_o E.E70B196F.Up2Date
+C:\Users\kauea\Desktop\Finansec2\Finansec\Sistema-C-master\Sistema Financeiro\obj\Debug\Sistema Financeiro.exe
+C:\Users\kauea\Desktop\Finansec2\Finansec\Sistema-C-master\Sistema Financeiro\obj\Debug\Sistema Financeiro.pdb

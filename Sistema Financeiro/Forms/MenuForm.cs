@@ -16,5 +16,10 @@ namespace Sistema_Financeiro.Forms
         {
             InitializeComponent();
         }
+
+        private void Notificacoes_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

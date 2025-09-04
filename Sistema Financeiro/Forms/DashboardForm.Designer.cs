@@ -28,327 +28,414 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.iconPictureBox2 = new FontAwesome.Sharp.IconPictureBox();
-            this.panel2 = new System.Windows.Forms.Panel();
+            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.iconPictureBox1 = new FontAwesome.Sharp.IconPictureBox();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.iconPictureBox3 = new FontAwesome.Sharp.IconPictureBox();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.cartesianChart1 = new LiveCharts.WinForms.CartesianChart();
-            this.panel5 = new System.Windows.Forms.Panel();
-            this.label10 = new System.Windows.Forms.Label();
-            this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
+            this.NomeConta = new System.Windows.Forms.TextBox();
+            this.iconButton1 = new FontAwesome.Sharp.IconButton();
+            this.label1 = new System.Windows.Forms.Label();
             this.panel6 = new System.Windows.Forms.Panel();
-            this.monthCalendar1 = new System.Windows.Forms.MonthCalendar();
-            this.flowLayoutPanel1.SuspendLayout();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.labelApagar = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.panel5 = new System.Windows.Forms.Panel();
+            this.label2 = new System.Windows.Forms.Label();
+            this.panel7 = new System.Windows.Forms.Panel();
+            this.panel8 = new System.Windows.Forms.Panel();
+            this.panel9 = new System.Windows.Forms.Panel();
+            this.labelSaldo = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.panel10 = new System.Windows.Forms.Panel();
+            this.label8 = new System.Windows.Forms.Label();
+            this.panel11 = new System.Windows.Forms.Panel();
+            this.labelPago = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.panel12 = new System.Windows.Forms.Panel();
+            this.label7 = new System.Windows.Forms.Label();
+            this.chart1 = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox2)).BeginInit();
             this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox1)).BeginInit();
-            this.panel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox3)).BeginInit();
             this.panel4.SuspendLayout();
-            this.panel5.SuspendLayout();
-            this.flowLayoutPanel2.SuspendLayout();
-            this.panel6.SuspendLayout();
+            this.panel3.SuspendLayout();
+            this.panel8.SuspendLayout();
+            this.panel9.SuspendLayout();
+            this.panel10.SuspendLayout();
+            this.panel11.SuspendLayout();
+            this.panel12.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.chart1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // flowLayoutPanel1
-            // 
-            this.flowLayoutPanel1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.flowLayoutPanel1.Controls.Add(this.panel1);
-            this.flowLayoutPanel1.Controls.Add(this.panel2);
-            this.flowLayoutPanel1.Controls.Add(this.panel3);
-            this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 0);
-            this.flowLayoutPanel1.Margin = new System.Windows.Forms.Padding(3, 3, 3, 30);
-            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(1532, 179);
-            this.flowLayoutPanel1.TabIndex = 0;
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
-            this.panel1.Controls.Add(this.label3);
-            this.panel1.Controls.Add(this.label2);
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(24)))), ((int)(((byte)(24)))));
+            this.panel1.Controls.Add(this.dateTimePicker2);
+            this.panel1.Controls.Add(this.dateTimePicker1);
+            this.panel1.Controls.Add(this.label4);
+            this.panel1.Controls.Add(this.NomeConta);
+            this.panel1.Controls.Add(this.iconButton1);
             this.panel1.Controls.Add(this.label1);
-            this.panel1.Controls.Add(this.iconPictureBox2);
-            this.panel1.Location = new System.Drawing.Point(70, 3);
-            this.panel1.Margin = new System.Windows.Forms.Padding(70, 3, 3, 3);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(439, 158);
-            this.panel1.TabIndex = 0;
+            this.panel1.Size = new System.Drawing.Size(1370, 110);
+            this.panel1.TabIndex = 1;
             // 
-            // label3
+            // dateTimePicker2
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.Gainsboro;
-            this.label3.Location = new System.Drawing.Point(3, 61);
-            this.label3.MaximumSize = new System.Drawing.Size(289, 94);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(216, 46);
-            this.label3.TabIndex = 4;
-            this.label3.Text = "10000,00$";
-            this.label3.Click += new System.EventHandler(this.label3_Click);
+            this.dateTimePicker2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.dateTimePicker2.Location = new System.Drawing.Point(400, 12);
+            this.dateTimePicker2.Name = "dateTimePicker2";
+            this.dateTimePicker2.Size = new System.Drawing.Size(321, 26);
+            this.dateTimePicker2.TabIndex = 11;
             // 
-            // label2
+            // dateTimePicker1
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.Gainsboro;
-            this.label2.Location = new System.Drawing.Point(9, 16);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(128, 32);
-            this.label2.TabIndex = 3;
-            this.label2.Text = "Entradas";
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(0, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(0, 16);
-            this.label1.TabIndex = 2;
-            // 
-            // iconPictureBox2
-            // 
-            this.iconPictureBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
-            this.iconPictureBox2.ForeColor = System.Drawing.Color.Gainsboro;
-            this.iconPictureBox2.IconChar = FontAwesome.Sharp.IconChar.ArrowDown;
-            this.iconPictureBox2.IconColor = System.Drawing.Color.Gainsboro;
-            this.iconPictureBox2.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconPictureBox2.IconSize = 150;
-            this.iconPictureBox2.Location = new System.Drawing.Point(286, 6);
-            this.iconPictureBox2.Name = "iconPictureBox2";
-            this.iconPictureBox2.Size = new System.Drawing.Size(150, 152);
-            this.iconPictureBox2.TabIndex = 1;
-            this.iconPictureBox2.TabStop = false;
-            // 
-            // panel2
-            // 
-            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
-            this.panel2.Controls.Add(this.label4);
-            this.panel2.Controls.Add(this.label5);
-            this.panel2.Controls.Add(this.iconPictureBox1);
-            this.panel2.Location = new System.Drawing.Point(572, 3);
-            this.panel2.Margin = new System.Windows.Forms.Padding(60, 3, 50, 3);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(439, 158);
-            this.panel2.TabIndex = 5;
+            this.dateTimePicker1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.dateTimePicker1.Location = new System.Drawing.Point(27, 12);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(321, 26);
+            this.dateTimePicker1.TabIndex = 10;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.Color.Gainsboro;
-            this.label4.Location = new System.Drawing.Point(7, 64);
-            this.label4.MaximumSize = new System.Drawing.Size(289, 94);
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(23, 44);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(216, 46);
-            this.label4.TabIndex = 4;
-            this.label4.Text = "10000,00$";
+            this.label4.Size = new System.Drawing.Size(186, 20);
+            this.label4.TabIndex = 9;
+            this.label4.Text = "Digite o Nome da Conta :";
+            // 
+            // NomeConta
+            // 
+            this.NomeConta.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.NomeConta.Location = new System.Drawing.Point(26, 69);
+            this.NomeConta.Name = "NomeConta";
+            this.NomeConta.Size = new System.Drawing.Size(341, 26);
+            this.NomeConta.TabIndex = 8;
+            this.NomeConta.TextChanged += new System.EventHandler(this.NomeConta_TextChanged);
+            // 
+            // iconButton1
+            // 
+            this.iconButton1.AutoSize = true;
+            this.iconButton1.BackColor = System.Drawing.SystemColors.HotTrack;
+            this.iconButton1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.iconButton1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.iconButton1.IconChar = FontAwesome.Sharp.IconChar.Check;
+            this.iconButton1.IconColor = System.Drawing.Color.Gainsboro;
+            this.iconButton1.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.iconButton1.IconSize = 38;
+            this.iconButton1.Location = new System.Drawing.Point(387, 61);
+            this.iconButton1.Name = "iconButton1";
+            this.iconButton1.Size = new System.Drawing.Size(44, 44);
+            this.iconButton1.TabIndex = 3;
+            this.iconButton1.UseVisualStyleBackColor = false;
+            this.iconButton1.Click += new System.EventHandler(this.iconButton1_Click);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.Gainsboro;
+            this.label1.Location = new System.Drawing.Point(364, 12);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(20, 25);
+            this.label1.TabIndex = 2;
+            this.label1.Text = "-";
+            // 
+            // panel6
+            // 
+            this.panel6.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel6.Location = new System.Drawing.Point(0, 110);
+            this.panel6.Name = "panel6";
+            this.panel6.Size = new System.Drawing.Size(1370, 18);
+            this.panel6.TabIndex = 7;
+            // 
+            // panel2
+            // 
+            this.panel2.Controls.Add(this.panel4);
+            this.panel2.Controls.Add(this.panel3);
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel2.Location = new System.Drawing.Point(0, 128);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(1370, 100);
+            this.panel2.TabIndex = 9;
+            // 
+            // panel4
+            // 
+            this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
+            this.panel4.Controls.Add(this.labelApagar);
+            this.panel4.Controls.Add(this.label3);
+            this.panel4.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel4.Location = new System.Drawing.Point(209, 0);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(303, 100);
+            this.panel4.TabIndex = 4;
+            // 
+            // labelApagar
+            // 
+            this.labelApagar.AutoSize = true;
+            this.labelApagar.Dock = System.Windows.Forms.DockStyle.Top;
+            this.labelApagar.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelApagar.Location = new System.Drawing.Point(0, 25);
+            this.labelApagar.Name = "labelApagar";
+            this.labelApagar.Size = new System.Drawing.Size(213, 37);
+            this.labelApagar.TabIndex = 1;
+            this.labelApagar.Text = "10000000000";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Dock = System.Windows.Forms.DockStyle.Top;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(0, 0);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(99, 25);
+            this.label3.TabIndex = 0;
+            this.label3.Text = "A pagar :";
+            // 
+            // panel3
+            // 
+            this.panel3.Controls.Add(this.panel5);
+            this.panel3.Controls.Add(this.label2);
+            this.panel3.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel3.Location = new System.Drawing.Point(0, 0);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(209, 100);
+            this.panel3.TabIndex = 3;
+            this.panel3.Paint += new System.Windows.Forms.PaintEventHandler(this.panel3_Paint);
+            // 
+            // panel5
+            // 
+            this.panel5.Location = new System.Drawing.Point(0, 106);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(1425, 18);
+            this.panel5.TabIndex = 7;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(13, 32);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(172, 37);
+            this.label2.TabIndex = 2;
+            this.label2.Text = "Agendado";
+            this.label2.Click += new System.EventHandler(this.label2_Click_2);
+            // 
+            // panel7
+            // 
+            this.panel7.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel7.Location = new System.Drawing.Point(0, 228);
+            this.panel7.Name = "panel7";
+            this.panel7.Size = new System.Drawing.Size(1370, 21);
+            this.panel7.TabIndex = 10;
+            // 
+            // panel8
+            // 
+            this.panel8.Controls.Add(this.panel9);
+            this.panel8.Controls.Add(this.panel10);
+            this.panel8.Controls.Add(this.panel11);
+            this.panel8.Controls.Add(this.panel12);
+            this.panel8.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel8.Location = new System.Drawing.Point(0, 249);
+            this.panel8.Name = "panel8";
+            this.panel8.Size = new System.Drawing.Size(1370, 100);
+            this.panel8.TabIndex = 11;
+            // 
+            // panel9
+            // 
+            this.panel9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
+            this.panel9.Controls.Add(this.labelSaldo);
+            this.panel9.Controls.Add(this.label5);
+            this.panel9.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel9.Location = new System.Drawing.Point(721, 0);
+            this.panel9.Name = "panel9";
+            this.panel9.Size = new System.Drawing.Size(303, 100);
+            this.panel9.TabIndex = 6;
+            this.panel9.Paint += new System.Windows.Forms.PaintEventHandler(this.panel9_Paint);
+            // 
+            // labelSaldo
+            // 
+            this.labelSaldo.AutoSize = true;
+            this.labelSaldo.Dock = System.Windows.Forms.DockStyle.Top;
+            this.labelSaldo.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelSaldo.Location = new System.Drawing.Point(0, 25);
+            this.labelSaldo.Name = "labelSaldo";
+            this.labelSaldo.Size = new System.Drawing.Size(213, 37);
+            this.labelSaldo.TabIndex = 1;
+            this.labelSaldo.Text = "10000000000";
+            this.labelSaldo.Click += new System.EventHandler(this.labelSaldo_Click_1);
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.Color.Gainsboro;
-            this.label5.Location = new System.Drawing.Point(9, 16);
+            this.label5.Dock = System.Windows.Forms.DockStyle.Top;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(0, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(102, 32);
-            this.label5.TabIndex = 3;
-            this.label5.Text = "Saidas";
+            this.label5.Size = new System.Drawing.Size(79, 25);
+            this.label5.TabIndex = 0;
+            this.label5.Text = "Saldo :";
             // 
-            // iconPictureBox1
+            // panel10
             // 
-            this.iconPictureBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
-            this.iconPictureBox1.ForeColor = System.Drawing.Color.Gainsboro;
-            this.iconPictureBox1.IconChar = FontAwesome.Sharp.IconChar.ArrowUp;
-            this.iconPictureBox1.IconColor = System.Drawing.Color.Gainsboro;
-            this.iconPictureBox1.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconPictureBox1.IconSize = 150;
-            this.iconPictureBox1.Location = new System.Drawing.Point(286, 3);
-            this.iconPictureBox1.Name = "iconPictureBox1";
-            this.iconPictureBox1.Size = new System.Drawing.Size(150, 152);
-            this.iconPictureBox1.TabIndex = 1;
-            this.iconPictureBox1.TabStop = false;
+            this.panel10.Controls.Add(this.label8);
+            this.panel10.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel10.Location = new System.Drawing.Point(512, 0);
+            this.panel10.Name = "panel10";
+            this.panel10.Size = new System.Drawing.Size(209, 100);
+            this.panel10.TabIndex = 5;
             // 
-            // panel3
+            // label8
             // 
-            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
-            this.panel3.Controls.Add(this.label7);
-            this.panel3.Controls.Add(this.label8);
-            this.panel3.Controls.Add(this.iconPictureBox3);
-            this.panel3.Location = new System.Drawing.Point(1064, 3);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(439, 158);
-            this.panel3.TabIndex = 6;
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Location = new System.Drawing.Point(6, 32);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(191, 37);
+            this.label8.TabIndex = 2;
+            this.label8.Text = "Saldo Total";
+            // 
+            // panel11
+            // 
+            this.panel11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
+            this.panel11.Controls.Add(this.labelPago);
+            this.panel11.Controls.Add(this.label6);
+            this.panel11.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel11.Location = new System.Drawing.Point(209, 0);
+            this.panel11.Name = "panel11";
+            this.panel11.Size = new System.Drawing.Size(303, 100);
+            this.panel11.TabIndex = 4;
+            // 
+            // labelPago
+            // 
+            this.labelPago.AutoSize = true;
+            this.labelPago.Dock = System.Windows.Forms.DockStyle.Top;
+            this.labelPago.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelPago.Location = new System.Drawing.Point(0, 25);
+            this.labelPago.Name = "labelPago";
+            this.labelPago.Size = new System.Drawing.Size(213, 37);
+            this.labelPago.TabIndex = 1;
+            this.labelPago.Text = "10000000000";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Dock = System.Windows.Forms.DockStyle.Top;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(0, 0);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(74, 25);
+            this.label6.TabIndex = 0;
+            this.label6.Text = "Pago :";
+            // 
+            // panel12
+            // 
+            this.panel12.Controls.Add(this.label7);
+            this.panel12.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel12.Location = new System.Drawing.Point(0, 0);
+            this.panel12.Name = "panel12";
+            this.panel12.Size = new System.Drawing.Size(209, 100);
+            this.panel12.TabIndex = 3;
             // 
             // label7
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.ForeColor = System.Drawing.Color.Gainsboro;
-            this.label7.Location = new System.Drawing.Point(7, 64);
-            this.label7.MaximumSize = new System.Drawing.Size(289, 94);
+            this.label7.Location = new System.Drawing.Point(13, 32);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(216, 46);
-            this.label7.TabIndex = 4;
-            this.label7.Text = "10000,00$";
+            this.label7.Size = new System.Drawing.Size(169, 37);
+            this.label7.TabIndex = 2;
+            this.label7.Text = "Concluido";
             // 
-            // label8
+            // chart1
             // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.ForeColor = System.Drawing.Color.Gainsboro;
-            this.label8.Location = new System.Drawing.Point(9, 16);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(88, 32);
-            this.label8.TabIndex = 3;
-            this.label8.Text = "Saldo";
-            this.label8.Click += new System.EventHandler(this.label8_Click);
-            // 
-            // iconPictureBox3
-            // 
-            this.iconPictureBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
-            this.iconPictureBox3.ForeColor = System.Drawing.Color.Gainsboro;
-            this.iconPictureBox3.IconChar = FontAwesome.Sharp.IconChar.DollarSign;
-            this.iconPictureBox3.IconColor = System.Drawing.Color.Gainsboro;
-            this.iconPictureBox3.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconPictureBox3.IconSize = 150;
-            this.iconPictureBox3.Location = new System.Drawing.Point(286, 6);
-            this.iconPictureBox3.Name = "iconPictureBox3";
-            this.iconPictureBox3.Size = new System.Drawing.Size(150, 152);
-            this.iconPictureBox3.TabIndex = 1;
-            this.iconPictureBox3.TabStop = false;
-            // 
-            // panel4
-            // 
-            this.panel4.Controls.Add(this.cartesianChart1);
-            this.panel4.Controls.Add(this.panel5);
-            this.panel4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel4.Location = new System.Drawing.Point(0, 179);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(1064, 493);
-            this.panel4.TabIndex = 1;
-            // 
-            // cartesianChart1
-            // 
-            this.cartesianChart1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.cartesianChart1.Location = new System.Drawing.Point(0, 51);
-            this.cartesianChart1.Name = "cartesianChart1";
-            this.cartesianChart1.Size = new System.Drawing.Size(1064, 442);
-            this.cartesianChart1.TabIndex = 1;
-            this.cartesianChart1.Text = "cartesianChart1";
-            // 
-            // panel5
-            // 
-            this.panel5.Controls.Add(this.label10);
-            this.panel5.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel5.Location = new System.Drawing.Point(0, 0);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(1064, 51);
-            this.panel5.TabIndex = 0;
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Dock = System.Windows.Forms.DockStyle.Top;
-            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.ForeColor = System.Drawing.Color.Gainsboro;
-            this.label10.Location = new System.Drawing.Point(0, 0);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(185, 42);
-            this.label10.TabIndex = 0;
-            this.label10.Text = "Projeção ";
-            this.label10.Click += new System.EventHandler(this.label10_Click);
-            // 
-            // flowLayoutPanel2
-            // 
-            this.flowLayoutPanel2.Controls.Add(this.panel6);
-            this.flowLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Right;
-            this.flowLayoutPanel2.Location = new System.Drawing.Point(1064, 179);
-            this.flowLayoutPanel2.Name = "flowLayoutPanel2";
-            this.flowLayoutPanel2.Size = new System.Drawing.Size(468, 493);
-            this.flowLayoutPanel2.TabIndex = 2;
-            // 
-            // panel6
-            // 
-            this.panel6.Controls.Add(this.monthCalendar1);
-            this.panel6.Location = new System.Drawing.Point(3, 3);
-            this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(436, 297);
-            this.panel6.TabIndex = 1;
-            // 
-            // monthCalendar1
-            // 
-            this.monthCalendar1.Location = new System.Drawing.Point(87, 36);
-            this.monthCalendar1.Name = "monthCalendar1";
-            this.monthCalendar1.TabIndex = 0;
+            chartArea1.Name = "ChartArea1";
+            this.chart1.ChartAreas.Add(chartArea1);
+            legend1.Name = "Legend1";
+            this.chart1.Legends.Add(legend1);
+            this.chart1.Location = new System.Drawing.Point(47, 408);
+            this.chart1.Name = "chart1";
+            series1.ChartArea = "ChartArea1";
+            series1.Legend = "Legend1";
+            series1.Name = "Series1";
+            this.chart1.Series.Add(series1);
+            this.chart1.Size = new System.Drawing.Size(591, 300);
+            this.chart1.TabIndex = 12;
+            this.chart1.Text = "chart1";
             // 
             // DashboardForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(24)))), ((int)(((byte)(24)))));
-            this.ClientSize = new System.Drawing.Size(1532, 672);
-            this.Controls.Add(this.panel4);
-            this.Controls.Add(this.flowLayoutPanel2);
-            this.Controls.Add(this.flowLayoutPanel1);
-            this.Margin = new System.Windows.Forms.Padding(4);
+            this.ClientSize = new System.Drawing.Size(1370, 739);
+            this.Controls.Add(this.chart1);
+            this.Controls.Add(this.panel8);
+            this.Controls.Add(this.panel7);
+            this.Controls.Add(this.panel2);
+            this.Controls.Add(this.panel6);
+            this.Controls.Add(this.panel1);
+            this.ForeColor = System.Drawing.Color.Gainsboro;
             this.Name = "DashboardForm";
             this.Text = "Dashboard";
-            this.flowLayoutPanel1.ResumeLayout(false);
+            this.Load += new System.EventHandler(this.DashboardForm_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox2)).EndInit();
             this.panel2.ResumeLayout(false);
-            this.panel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox1)).EndInit();
+            this.panel4.ResumeLayout(false);
+            this.panel4.PerformLayout();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox3)).EndInit();
-            this.panel4.ResumeLayout(false);
-            this.panel5.ResumeLayout(false);
-            this.panel5.PerformLayout();
-            this.flowLayoutPanel2.ResumeLayout(false);
-            this.panel6.ResumeLayout(false);
+            this.panel8.ResumeLayout(false);
+            this.panel9.ResumeLayout(false);
+            this.panel9.PerformLayout();
+            this.panel10.ResumeLayout(false);
+            this.panel10.PerformLayout();
+            this.panel11.ResumeLayout(false);
+            this.panel11.PerformLayout();
+            this.panel12.ResumeLayout(false);
+            this.panel12.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.chart1)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
-
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Label label2;
+        private FontAwesome.Sharp.IconButton iconButton1;
         private System.Windows.Forms.Label label1;
-        private FontAwesome.Sharp.IconPictureBox iconPictureBox2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label5;
-        private FontAwesome.Sharp.IconPictureBox iconPictureBox1;
-        private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label8;
-        private FontAwesome.Sharp.IconPictureBox iconPictureBox3;
-        private System.Windows.Forms.Panel panel4;
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel2;
-        private System.Windows.Forms.Panel panel5;
-        private System.Windows.Forms.Label label10;
-        private LiveCharts.WinForms.CartesianChart cartesianChart1;
+        private System.Windows.Forms.TextBox NomeConta;
+        private System.Windows.Forms.DateTimePicker dateTimePicker2;
+        private System.Windows.Forms.DateTimePicker dateTimePicker1;
         private System.Windows.Forms.Panel panel6;
-        private System.Windows.Forms.MonthCalendar monthCalendar1;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Panel panel4;
+        private System.Windows.Forms.Label labelApagar;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.Panel panel5;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Panel panel7;
+        private System.Windows.Forms.Panel panel8;
+        private System.Windows.Forms.Panel panel9;
+        private System.Windows.Forms.Label labelSaldo;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Panel panel10;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Panel panel11;
+        private System.Windows.Forms.Label labelPago;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Panel panel12;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.DataVisualization.Charting.Chart chart1;
     }
 }
